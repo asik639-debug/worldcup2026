@@ -1,23 +1,24 @@
-const groups = {
-  A: ["Mexico", "Costa Rica", "Japan", "Cameroon"],
-  B: ["Spain", "Morocco", "Canada", "Iraq"]
-};
+fetch("data/groups.json")
+  .then(response => response.json())
+  .then(groups => {
 
-const container = document.getElementById("groups");
+    const container = document.getElementById("groups");
 
-for (const group in groups) {
-  const title = document.createElement("h3");
-  title.textContent = `Group ${group}`;
+    for (const group in groups) {
 
-  container.appendChild(title);
+      const title = document.createElement("h3");
+      title.textContent = `Group ${group}`;
+      container.appendChild(title);
 
-  const ul = document.createElement("ul");
+      const ul = document.createElement("ul");
 
-  groups[group].forEach(team => {
-    const li = document.createElement("li");
-    li.textContent = team;
-    ul.appendChild(li);
+      groups[group].forEach(team => {
+        const li = document.createElement("li");
+        li.textContent = team;
+        ul.appendChild(li);
+      });
+
+      container.appendChild(ul);
+    }
+
   });
-
-  container.appendChild(ul);
-}
