@@ -35,17 +35,23 @@ fetch("data/matches.json")
     const container =
       document.getElementById("today-matches");
 
-    matches.forEach(match => {
+matches.forEach(match => {
 
-      const div =
-        document.createElement("div");
+  const card = document.createElement("div");
+  card.className = "match-card";
 
-      div.innerHTML =
-        `${match.home} vs ${match.away}
-         - ${match.time}`;
+  card.innerHTML = `
+    <div class="match-time">
+      ${match.time}
+    </div>
 
-      container.appendChild(div);
+    <div class="match-teams">
+      ${match.home} vs ${match.away}
+    </div>
+  `;
 
-    });
+  container.appendChild(card);
+
+});
 
   });
