@@ -6,9 +6,11 @@ fetch("data/groups.json")
 
     for (const group in groups) {
 
+      const card = document.createElement("div");
+      card.className = "group-card";
+
       const title = document.createElement("h3");
       title.textContent = `Group ${group}`;
-      container.appendChild(title);
 
       const ul = document.createElement("ul");
 
@@ -18,7 +20,10 @@ fetch("data/groups.json")
         ul.appendChild(li);
       });
 
-      container.appendChild(ul);
+      card.appendChild(title);
+      card.appendChild(ul);
+
+      container.appendChild(card);
     }
 
   });
