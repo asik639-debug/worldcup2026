@@ -15,14 +15,13 @@ body {
 }
 
 ul {
-    background: #f4f4f4;
-    padding: 15px;
-    border-radius: 8px;
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .group-card {
-    background: #f4f4f4;
+    background: #1e1e1e;
     border-radius: 8px;
     padding: 15px;
 }
@@ -44,7 +43,7 @@ ul {
 }
 
 .match-card {
-    background: #f4f4f4;
+    background: #1e1e1e;
     padding: 15px;
     border-radius: 8px;
 }
