@@ -22,3 +22,25 @@ fetch("data/groups.json")
     }
 
   });
+
+fetch("data/matches.json")
+  .then(response => response.json())
+  .then(matches => {
+
+    const container =
+      document.getElementById("today-matches");
+
+    matches.forEach(match => {
+
+      const div =
+        document.createElement("div");
+
+      div.innerHTML =
+        `${match.home} vs ${match.away}
+         - ${match.time}`;
+
+      container.appendChild(div);
+
+    });
+
+  });
