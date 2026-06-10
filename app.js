@@ -1,29 +1,59 @@
-fetch("data/groups.json")
+fetch("data/standings.json")
   .then(response => response.json())
   .then(groups => {
 
-    const container = document.getElementById("groups");
+    const container =
+      document.getElementById("groups");
 
     for (const group in groups) {
 
-      const card = document.createElement("div");
+      const card =
+        document.createElement("div");
+
       card.className = "group-card";
 
-      const title = document.createElement("h3");
-      title.textContent = `Group ${group}`;
+      const title =
+        document.createElement("h3");
 
-      const ul = document.createElement("ul");
+      title.textContent = group;
+
+      const table =
+        document.createElement("table");
+
+      table.className = "standings-table";
+
+      table.innerHTML = `
+        <tr>
+          <th>Pos</th>
+          <th>Team</th>
+          <th>P</th>
+          <th>GD</th>
+          <th>Pts</th>
+        </tr>
+      `;
 
       groups[group].forEach(team => {
-        const li = document.createElement("li");
-        li.textContent = team;
-        ul.appendChild(li);
+
+        const row =
+          document.createElement("tr");
+
+        row.innerHTML = `
+          <td>${team.position}</td>
+          <td>${team.team}</td>
+          <td>${team.playedGames}</td>
+          <td>${team.goalDifference}</td>
+          <td>${team.points}</td>
+        `;
+
+        table.appendChild(row);
+
       });
 
       card.appendChild(title);
-      card.appendChild(ul);
+      card.appendChild(table);
 
       container.appendChild(card);
+
     }
 
   });

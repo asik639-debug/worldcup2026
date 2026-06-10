@@ -69,3 +69,22 @@ ul {
     }
 
 }
+
+.standings-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.standings-table th,
+.standings-table td {
+    padding: 6px;
+    text-align: center;
+}
+
+.standings-table th {
+    border-bottom: 1px solid #555;
+}
+
+.standings-table td:nth-child(2) {
+    text-align: left;
+}
