@@ -43,19 +43,20 @@ ul {
 }
 
 .match-card {
-    background: #1e1e1e;
-    padding: 15px;
-    border-radius: 8px;
+    background: #2a2a2a;
+    padding: 18px;
+    border-radius: 12px;
 }
 
 .match-time {
-    font-size: 0.9rem;
-    opacity: 0.7;
+    font-size: 0.95rem;
+    opacity: 0.8;
 }
 
 .match-teams {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: bold;
+    margin-top: 8px;
 }
 
 @media (max-width: 768px) {
@@ -87,4 +88,55 @@ ul {
 
 .standings-table td:nth-child(2) {
     text-align: left;
+}
+
+.match-status {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+    background: #444;
+}
+
+.status-scheduled {
+    background: #444;
+}
+
+.status-live {
+    background: #b91c1c;
+}
+
+.status-finished {
+    background: #1d4ed8;
+}
+
+section{
+    margin-bottom: 40px;
+}
+
+h2{
+    margin-bottom:15px;
+}
+
+#bracket {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bracket-stage {
+    background: #2a2a2a;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+.bracket-match {
+    padding: 6px 0;
+}
+
+.bracket-date {
+    font-size: 0.8rem;
+    opacity: 0.7;
 }
