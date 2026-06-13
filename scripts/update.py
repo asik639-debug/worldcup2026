@@ -77,5 +77,18 @@ for group in data["standings"]:
 with open("data/standings.json", "w") as file:
     json.dump(standings, file, indent=2)
 
+
+from datetime import datetime, timezone
+
+last_updated = {
+    "updated": datetime.now(timezone.utc).isoformat()
+}
+
+with open("data/last_updated.json", "w") as file:
+    json.dump(last_updated, file, indent=2)
+
 print(f"Updated {len(matches)} matches")
 print(f"Updated {len(standings)} groups")
+
+#group = data["standings"][0]
+#print(group["table"][0])

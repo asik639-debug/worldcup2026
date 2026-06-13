@@ -3,41 +3,41 @@
     "home": "Mexico",
     "away": "South Africa",
     "time": "2026-06-11T19:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_A",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 2,
+    "awayScore": 0
   },
   {
     "home": "South Korea",
     "away": "Czechia",
     "time": "2026-06-12T02:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_A",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 2,
+    "awayScore": 1
   },
   {
     "home": "Canada",
     "away": "Bosnia-Herzegovina",
     "time": "2026-06-12T19:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_B",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 1,
+    "awayScore": 1
   },
   {
     "home": "United States",
     "away": "Paraguay",
     "time": "2026-06-13T01:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_D",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 4,
+    "awayScore": 1
   },
   {
     "home": "Qatar",
@@ -103,7 +103,7 @@
     "home": "Ivory Coast",
     "away": "Ecuador",
     "time": "2026-06-14T23:00:00Z",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_E",
     "homeScore": null,
