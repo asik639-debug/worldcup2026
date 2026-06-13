@@ -20,6 +20,10 @@ response = requests.get(
     headers=headers
 )
 
+if response.status_code != 200:
+    print("Matches API request failed")
+    exit()
+
 data = response.json()
 
 matches = []
@@ -48,6 +52,10 @@ response = requests.get(
     "https://api.football-data.org/v4/competitions/WC/standings",
     headers=headers
 )
+
+if standings_response.status_code != 200:
+    print("Standings API request failed")
+    exit()
 
 data = response.json()
 

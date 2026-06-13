@@ -2,7 +2,14 @@ name: Update World Cup Data
 
 on:
   schedule:
-    - cron: "0 * * * *"
+  # Every hour outside match-heavy periods
+  - cron: "0 7-16 * * *"
+
+  # Every 10 minutes during World Cup viewing hours
+  - cron: "*/10 17-23,0-6 * * *"
+
+  # Guaranteed 12:30 AM Bangladesh refresh
+  - cron: "30 18 * * *"
 
   workflow_dispatch:
 
