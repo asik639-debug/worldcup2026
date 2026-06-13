@@ -1,3 +1,27 @@
+fetch("data/last_updated.json")
+  .then(response => response.json())
+  .then(data => {
+
+    const updateBox =
+      document.getElementById("last-updated");
+
+    const updated =
+      new Date(data.updated);
+
+    const bdTime =
+      updated.toLocaleString(
+        "en-BD",
+        {
+          timeZone: "Asia/Dhaka",
+          dateStyle: "medium",
+          timeStyle: "short"
+        }
+      );
+
+    updateBox.textContent =
+      `Last updated: ${bdTime}`;
+  });
+
 fetch("data/standings.json")
   .then(response => response.json())
   .then(groups => {
@@ -232,7 +256,7 @@ knockoutStages.forEach(stage => {
 
 title.textContent =
   stageNames[stage];
-  
+
   section.appendChild(title);
 
   stageMatches.forEach(match => {
