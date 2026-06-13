@@ -132,15 +132,20 @@ h2 {
 
 #bracket {
     display: flex;
-    flex-direction: column;
-    gap: 20px;
+    gap: 25px;
 
-    max-width: 900px;
-    margin: 0 auto;
+    overflow-x: auto;
+
+    padding-bottom: 10px;
 }
 
 .bracket-stage {
-    margin-bottom: 35px;
+    min-width: 220px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
 }
 
 .bracket-stage h3 {
@@ -150,15 +155,12 @@ h2 {
 
 .bracket-match {
     background: #2a2a2a;
+
     border: 1px solid #444;
 
     border-radius: 10px;
 
     padding: 12px;
-
-    width: min(350px, 90%);
-
-    margin: 10px auto;
 
     text-align: center;
 }
