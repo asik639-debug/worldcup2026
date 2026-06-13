@@ -53,11 +53,11 @@
     "home": "Brazil",
     "away": "Morocco",
     "time": "2026-06-13T22:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "stage": "GROUP_STAGE",
     "group": "GROUP_C",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 0,
+    "awayScore": 1
   },
   {
     "home": "Haiti",
