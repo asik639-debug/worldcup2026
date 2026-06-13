@@ -53,9 +53,10 @@ response = requests.get(
     headers=headers
 )
 
-if standings_response.status_code != 200:
-    print("Standings API request failed")
-    exit()
+# ekhane standings_response.status_code bole kisu nai so error dekhay
+#if standings_response.status_code != 200:
+#    print("Standings API request failed")
+ #   exit()
 
 data = response.json()
 

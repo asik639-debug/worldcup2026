@@ -82,6 +82,98 @@ fetch("data/standings.json")
 
   });
 
+  fetch("data/standings.json")
+  .then(response => response.json())
+  .then(standings => {
+
+    const container =
+      document.getElementById(
+        "projected-qualifiers"
+      );
+
+    const qualified = [];
+
+    const thirdPlace = [];
+
+    for (const group in standings) {
+
+      const teams = standings[group];
+
+      qualified.push(teams[0]);
+      qualified.push(teams[1]);
+
+      thirdPlace.push(teams[2]);
+
+    }
+
+    thirdPlace.sort((a, b) => {
+
+      if (b.points !== a.points) {
+        return b.points - a.points;
+      }
+
+      if (
+        b.goalDifference !==
+        a.goalDifference
+      ) {
+        return (
+          b.goalDifference -
+          a.goalDifference
+        );
+      }
+
+      return (
+        b.goalsFor -
+        a.goalsFor
+      );
+
+    });
+
+    const bestThird =
+      thirdPlace.slice(0, 8);
+
+    const title1 =
+      document.createElement("h3");
+
+    title1.textContent =
+      "Automatic Qualifiers";
+
+    container.appendChild(title1);
+
+    qualified.forEach(team => {
+
+      const div =
+        document.createElement("div");
+
+      div.textContent =
+        `${team.team} (${team.points} pts)`;
+
+      container.appendChild(div);
+
+    });
+
+    const title2 =
+      document.createElement("h3");
+
+    title2.textContent =
+      "Best Third-Place Teams";
+
+    container.appendChild(title2);
+
+    bestThird.forEach(team => {
+
+      const div =
+        document.createElement("div");
+
+      div.textContent =
+        `${team.team} (${team.points} pts)`;
+
+      container.appendChild(div);
+
+    });
+
+  });
+
 fetch("data/matches.json")
   .then(response => response.json())
   .then(matches => {

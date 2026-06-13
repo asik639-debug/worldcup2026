@@ -146,3 +146,13 @@ h2{
     margin-bottom: 20px;
     font-size: 0.9rem;
 }
+
+#projected-qualifiers {
+    background: #2a2a2a;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+#projected-section {
+    display: none
+}
