@@ -33,11 +33,11 @@
     "home": "United States",
     "away": "Paraguay",
     "time": "2026-06-13T01:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_D",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 4,
+    "awayScore": 1
   },
   {
     "home": "Qatar",
