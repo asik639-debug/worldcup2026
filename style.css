@@ -77,6 +77,13 @@ ul {
         padding: 10px;
     }
 
+    #bracket {
+    flex-direction: column;
+}
+
+.bracket-stage {
+    min-width: auto;
+}
 }
 
 .standings-table {
