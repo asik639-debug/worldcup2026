@@ -77,11 +77,11 @@
     {
       "position": 3,
       "team": "Qatar",
-      "playedGames": 0,
+      "playedGames": 1,
       "won": 0,
-      "draw": 0,
+      "draw": 1,
       "lost": 0,
-      "points": 0,
+      "points": 1,
       "goalDifference": 0,
       "goalsFor": 0,
       "goalsAgainst": 0
@@ -89,11 +89,11 @@
     {
       "position": 3,
       "team": "Switzerland",
-      "playedGames": 0,
+      "playedGames": 1,
       "won": 0,
-      "draw": 0,
+      "draw": 1,
       "lost": 0,
-      "points": 0,
+      "points": 1,
       "goalDifference": 0,
       "goalsFor": 0,
       "goalsAgainst": 0
