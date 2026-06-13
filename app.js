@@ -240,8 +240,6 @@ fetch("data/matches.json")
       const card =
         document.createElement("div");
 
-      card.className = "match-card";
-
       let matchDisplay = "";
 
 if (
@@ -288,13 +286,22 @@ card.innerHTML = `
 `;
 
       if (matchDay === bdToday) {
-        todayContainer.appendChild(card);
-      }
 
-      else if (matchDay === nextMatchDay) {
-        upcomingContainer.appendChild(card);
-      }
+  card.className =
+    "match-card";
 
+  todayContainer.appendChild(card);
+
+}
+
+else if (matchDay === nextMatchDay) {
+
+  card.className =
+    "match-card upcoming-card";
+
+  upcomingContainer.appendChild(card);
+
+}
     });
 
 if (todayContainer.children.length === 0) {
@@ -360,10 +367,10 @@ title.textContent =
       "bracket-match";
 
     const home =
-  match.home || "Winner TBD";
+  match.home || "TBD";
 
 const away =
-  match.away || "Winner TBD";
+  match.away || "TBD";
 
 const date =
   new Date(match.time)
