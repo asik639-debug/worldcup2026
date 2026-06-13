@@ -52,6 +52,18 @@
   "Group B": [
     {
       "position": 1,
+      "team": "Switzerland",
+      "playedGames": 1,
+      "won": 1,
+      "draw": 0,
+      "lost": 0,
+      "points": 3,
+      "goalDifference": 1,
+      "goalsFor": 1,
+      "goalsAgainst": 0
+    },
+    {
+      "position": 2,
       "team": "Bosnia-Herzegovina",
       "playedGames": 1,
       "won": 0,
@@ -63,7 +75,7 @@
       "goalsAgainst": 1
     },
     {
-      "position": 1,
+      "position": 2,
       "team": "Canada",
       "playedGames": 1,
       "won": 0,
@@ -75,28 +87,16 @@
       "goalsAgainst": 1
     },
     {
-      "position": 3,
+      "position": 4,
       "team": "Qatar",
       "playedGames": 1,
       "won": 0,
-      "draw": 1,
-      "lost": 0,
-      "points": 1,
-      "goalDifference": 0,
+      "draw": 0,
+      "lost": 1,
+      "points": 0,
+      "goalDifference": -1,
       "goalsFor": 0,
-      "goalsAgainst": 0
-    },
-    {
-      "position": 3,
-      "team": "Switzerland",
-      "playedGames": 1,
-      "won": 0,
-      "draw": 1,
-      "lost": 0,
-      "points": 1,
-      "goalDifference": 0,
-      "goalsFor": 0,
-      "goalsAgainst": 0
+      "goalsAgainst": 1
     }
   ],
   "Group C": [
