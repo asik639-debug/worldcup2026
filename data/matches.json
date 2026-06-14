@@ -119,11 +119,11 @@
     "awayCode": "CUW",
     "awayCrest": "https://crests.football-data.org/curacao.svg",
     "time": "2026-06-14T17:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "stage": "GROUP_STAGE",
     "group": "GROUP_E",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 1,
+    "awayScore": 0
   },
   {
     "home": "Netherlands",
