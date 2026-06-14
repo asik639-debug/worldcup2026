@@ -32,7 +32,11 @@ for match in data["matches"]:
 
     matches.append({
         "home": match["homeTeam"]["name"],
+        "homeCode": match["homeTeam"]["tla"],
+        "homeCrest": match["homeTeam"]["crest"],
         "away": match["awayTeam"]["name"],
+        "awayCode": match["awayTeam"]["tla"],
+        "awayCrest": match["awayTeam"]["crest"],
         "time": match["utcDate"],
         "status": match["status"],
         "stage": match["stage"],

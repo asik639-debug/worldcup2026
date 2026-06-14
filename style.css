@@ -256,3 +256,13 @@ summary {
     justify-content: center;
     margin-bottom: 150px;
 }
+
+.team-logo {
+    width: 35px;
+    height: 35px;
+
+    vertical-align: middle;
+
+    margin: 0 8px;
+    margin-bottom: 3px;
+}

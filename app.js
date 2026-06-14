@@ -281,8 +281,22 @@ card.innerHTML = `
   </div>
 
   <div class="match-teams">
-    ${matchDisplay}
-  </div>
+
+  <img
+    class="team-logo"
+    src="${match.homeCrest}"
+    alt=""
+  >
+
+  ${matchDisplay}
+
+  <img
+    class="team-logo"
+    src="${match.awayCrest}"
+    alt=""
+  >
+
+</div>
 `;
 
       if (matchDay === bdToday) {
@@ -384,8 +398,31 @@ const date =
     );
 
 game.innerHTML = `
-  <div>${home} vs ${away}</div>
-  <div class="bracket-date">${date}</div>
+  <div>
+
+    ${
+      match.homeCrest
+      ? `<img class="team-logo" src="${match.homeCrest}" alt="">`
+      : ""
+    }
+
+    ${home}
+
+    vs
+
+    ${
+      match.awayCrest
+      ? `<img class="team-logo" src="${match.awayCrest}" alt="">`
+      : ""
+    }
+
+    ${away}
+
+  </div>
+
+  <div class="bracket-date">
+    ${date}
+  </div>
 `;
 
     section.appendChild(game);

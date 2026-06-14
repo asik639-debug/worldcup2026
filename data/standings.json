@@ -52,7 +52,7 @@
   "Group B": [
     {
       "position": 1,
-      "team": "Bosnia-Herzegovina",
+      "team": "Switzerland",
       "playedGames": 1,
       "won": 0,
       "draw": 1,
@@ -63,7 +63,7 @@
       "goalsAgainst": 1
     },
     {
-      "position": 1,
+      "position": 2,
       "team": "Canada",
       "playedGames": 1,
       "won": 0,
@@ -75,7 +75,7 @@
       "goalsAgainst": 1
     },
     {
-      "position": 1,
+      "position": 3,
       "team": "Qatar",
       "playedGames": 1,
       "won": 0,
@@ -87,8 +87,8 @@
       "goalsAgainst": 1
     },
     {
-      "position": 1,
-      "team": "Switzerland",
+      "position": 4,
+      "team": "Bosnia-Herzegovina",
       "playedGames": 1,
       "won": 0,
       "draw": 1,
@@ -114,7 +114,7 @@
     },
     {
       "position": 2,
-      "team": "Brazil",
+      "team": "Morocco",
       "playedGames": 1,
       "won": 0,
       "draw": 1,
@@ -125,8 +125,8 @@
       "goalsAgainst": 1
     },
     {
-      "position": 2,
-      "team": "Morocco",
+      "position": 3,
+      "team": "Brazil",
       "playedGames": 1,
       "won": 0,
       "draw": 1,
