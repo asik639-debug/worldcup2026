@@ -77,6 +77,7 @@ for group in data["standings"]:
         standings[group_name].append({
             "position": team["position"],
             "team": team["team"]["name"],
+            "crest": team["team"]["crest"],
             "playedGames": team["playedGames"],
             "won": team["won"],
             "draw": team["draw"],

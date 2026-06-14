@@ -51,6 +51,9 @@ fetch("data/standings.json")
           <th>Pos</th>
           <th>Team</th>
           <th>MP</th>
+          <th>W</th>
+          <th>D</th>
+          <th>L</th>
           <th>GD</th>
           <th>Pts</th>
         </tr>
@@ -61,13 +64,29 @@ fetch("data/standings.json")
         const row =
           document.createElement("tr");
 
-        row.innerHTML = `
-          <td>${team.position}</td>
-          <td>${team.team}</td>
-          <td>${team.playedGames}</td>
-          <td>${team.goalDifference}</td>
-          <td>${team.points}</td>
-        `;
+       row.innerHTML = `
+  <td>${team.position}</td>
+
+  <td class="team-cell">
+    <img
+      class="group-logo"
+      src="${team.crest}"
+      alt=""
+    >
+    ${team.team}
+  </td>
+
+  <td>${team.playedGames}</td>
+  <td>${team.won}</td>
+  <td>${team.draw}</td>
+  <td>${team.lost}</td>
+  <td>${
+    team.goalDifference > 0
+      ? "+" + team.goalDifference
+      : team.goalDifference
+  }</td>
+  <td>${team.points}</td>
+`;
 
         table.appendChild(row);
 
