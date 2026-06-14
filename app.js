@@ -339,7 +339,7 @@ knockoutStages.forEach(stage => {
     document.createElement("div");
 
   section.className =
-    "bracket-stage";
+  `bracket-stage ${stage.toLowerCase()}`;
 
   const title =
     document.createElement("h3");
