@@ -218,32 +218,19 @@
   "Group E": [
     {
       "position": 1,
-      "team": "Cura\u00e7ao",
-      "crest": "https://crests.football-data.org/curacao.svg",
-      "playedGames": 1,
-      "won": 0,
-      "draw": 1,
-      "lost": 0,
-      "points": 1,
-      "goalDifference": 0,
-      "goalsFor": 0,
-      "goalsAgainst": 0
-    },
-    {
-      "position": 1,
       "team": "Germany",
       "crest": "https://crests.football-data.org/759.svg",
       "playedGames": 1,
-      "won": 0,
-      "draw": 1,
+      "won": 1,
+      "draw": 0,
       "lost": 0,
-      "points": 1,
-      "goalDifference": 0,
-      "goalsFor": 0,
-      "goalsAgainst": 0
+      "points": 3,
+      "goalDifference": 2,
+      "goalsFor": 3,
+      "goalsAgainst": 1
     },
     {
-      "position": 3,
+      "position": 2,
       "team": "Ecuador",
       "crest": "https://crests.football-data.org/791.svg",
       "playedGames": 0,
@@ -256,7 +243,7 @@
       "goalsAgainst": 0
     },
     {
-      "position": 3,
+      "position": 2,
       "team": "Ivory Coast",
       "crest": "https://crests.football-data.org/787.svg",
       "playedGames": 0,
@@ -267,6 +254,19 @@
       "goalDifference": 0,
       "goalsFor": 0,
       "goalsAgainst": 0
+    },
+    {
+      "position": 4,
+      "team": "Cura\u00e7ao",
+      "crest": "https://crests.football-data.org/curacao.svg",
+      "playedGames": 1,
+      "won": 0,
+      "draw": 0,
+      "lost": 1,
+      "points": 0,
+      "goalDifference": -2,
+      "goalsFor": 1,
+      "goalsAgainst": 3
     }
   ],
   "Group F": [
