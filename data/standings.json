@@ -102,6 +102,18 @@
   "Group C": [
     {
       "position": 1,
+      "team": "Scotland",
+      "playedGames": 1,
+      "won": 1,
+      "draw": 0,
+      "lost": 0,
+      "points": 3,
+      "goalDifference": 1,
+      "goalsFor": 1,
+      "goalsAgainst": 0
+    },
+    {
+      "position": 2,
       "team": "Brazil",
       "playedGames": 1,
       "won": 0,
@@ -113,7 +125,7 @@
       "goalsAgainst": 1
     },
     {
-      "position": 1,
+      "position": 2,
       "team": "Morocco",
       "playedGames": 1,
       "won": 0,
@@ -125,28 +137,16 @@
       "goalsAgainst": 1
     },
     {
-      "position": 3,
+      "position": 4,
       "team": "Haiti",
-      "playedGames": 0,
+      "playedGames": 1,
       "won": 0,
       "draw": 0,
-      "lost": 0,
+      "lost": 1,
       "points": 0,
-      "goalDifference": 0,
+      "goalDifference": -1,
       "goalsFor": 0,
-      "goalsAgainst": 0
-    },
-    {
-      "position": 3,
-      "team": "Scotland",
-      "playedGames": 0,
-      "won": 0,
-      "draw": 0,
-      "lost": 0,
-      "points": 0,
-      "goalDifference": 0,
-      "goalsFor": 0,
-      "goalsAgainst": 0
+      "goalsAgainst": 1
     }
   ],
   "Group D": [
