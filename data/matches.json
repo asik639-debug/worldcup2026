@@ -133,11 +133,11 @@
     "awayCode": "JPN",
     "awayCrest": "https://crests.football-data.org/766.svg",
     "time": "2026-06-14T20:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "stage": "GROUP_STAGE",
     "group": "GROUP_F",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 0,
+    "awayScore": 0
   },
   {
     "home": "Ivory Coast",
