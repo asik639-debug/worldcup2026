@@ -323,11 +323,65 @@
       "goalsAgainst": 5
     }
   ],
-  "Atlantic Division": [
+  "Group G": [
     {
       "position": 1,
-      "team": "Cape Verde Islands",
-      "crest": "https://crests.football-data.org/cape_verde.svg",
+      "team": "Belgium",
+      "crest": "https://crests.football-data.org/805.svg",
+      "playedGames": 1,
+      "won": 0,
+      "draw": 1,
+      "lost": 0,
+      "points": 1,
+      "goalDifference": 0,
+      "goalsFor": 1,
+      "goalsAgainst": 1
+    },
+    {
+      "position": 2,
+      "team": "Egypt",
+      "crest": "https://crests.football-data.org/825.svg",
+      "playedGames": 1,
+      "won": 0,
+      "draw": 1,
+      "lost": 0,
+      "points": 1,
+      "goalDifference": 0,
+      "goalsFor": 1,
+      "goalsAgainst": 1
+    },
+    {
+      "position": 3,
+      "team": "Iran",
+      "crest": "https://crests.football-data.org/iran.svg",
+      "playedGames": 0,
+      "won": 0,
+      "draw": 0,
+      "lost": 0,
+      "points": 0,
+      "goalDifference": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0
+    },
+    {
+      "position": 3,
+      "team": "New Zealand",
+      "crest": "https://crests.football-data.org/783.svg",
+      "playedGames": 0,
+      "won": 0,
+      "draw": 0,
+      "lost": 0,
+      "points": 0,
+      "goalDifference": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0
+    }
+  ],
+  "Group H": [
+    {
+      "position": 1,
+      "team": "Saudi Arabia",
+      "crest": "https://crests.football-data.org/saudi_arabia.svg",
       "playedGames": 1,
       "won": 0,
       "draw": 1,
@@ -336,13 +390,37 @@
       "goalDifference": 0,
       "goalsFor": 0,
       "goalsAgainst": 0
-    }
-  ],
-  "Central Division": [
+    },
     {
       "position": 1,
+      "team": "Uruguay",
+      "crest": "https://crests.football-data.org/758.svg",
+      "playedGames": 1,
+      "won": 0,
+      "draw": 1,
+      "lost": 0,
+      "points": 1,
+      "goalDifference": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0
+    },
+    {
+      "position": 3,
       "team": "Spain",
       "crest": "https://crests.football-data.org/760.svg",
+      "playedGames": 1,
+      "won": 0,
+      "draw": 1,
+      "lost": 0,
+      "points": 1,
+      "goalDifference": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0
+    },
+    {
+      "position": 4,
+      "team": "Cape Verde Islands",
+      "crest": "https://crests.football-data.org/cape_verde.svg",
       "playedGames": 1,
       "won": 0,
       "draw": 1,
