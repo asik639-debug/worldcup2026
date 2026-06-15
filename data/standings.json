@@ -323,61 +323,7 @@
       "goalsAgainst": 5
     }
   ],
-  "Group G": [
-    {
-      "position": 1,
-      "team": "Egypt",
-      "crest": "https://crests.football-data.org/825.svg",
-      "playedGames": 1,
-      "won": 1,
-      "draw": 0,
-      "lost": 0,
-      "points": 3,
-      "goalDifference": 1,
-      "goalsFor": 1,
-      "goalsAgainst": 0
-    },
-    {
-      "position": 2,
-      "team": "Iran",
-      "crest": "https://crests.football-data.org/iran.svg",
-      "playedGames": 0,
-      "won": 0,
-      "draw": 0,
-      "lost": 0,
-      "points": 0,
-      "goalDifference": 0,
-      "goalsFor": 0,
-      "goalsAgainst": 0
-    },
-    {
-      "position": 2,
-      "team": "New Zealand",
-      "crest": "https://crests.football-data.org/783.svg",
-      "playedGames": 0,
-      "won": 0,
-      "draw": 0,
-      "lost": 0,
-      "points": 0,
-      "goalDifference": 0,
-      "goalsFor": 0,
-      "goalsAgainst": 0
-    },
-    {
-      "position": 4,
-      "team": "Belgium",
-      "crest": "https://crests.football-data.org/805.svg",
-      "playedGames": 1,
-      "won": 0,
-      "draw": 0,
-      "lost": 1,
-      "points": 0,
-      "goalDifference": -1,
-      "goalsFor": 0,
-      "goalsAgainst": 1
-    }
-  ],
-  "Group H": [
+  "Atlantic Division": [
     {
       "position": 1,
       "team": "Cape Verde Islands",
@@ -390,7 +336,9 @@
       "goalDifference": 0,
       "goalsFor": 0,
       "goalsAgainst": 0
-    },
+    }
+  ],
+  "Central Division": [
     {
       "position": 1,
       "team": "Spain",
@@ -400,32 +348,6 @@
       "draw": 1,
       "lost": 0,
       "points": 1,
-      "goalDifference": 0,
-      "goalsFor": 0,
-      "goalsAgainst": 0
-    },
-    {
-      "position": 3,
-      "team": "Saudi Arabia",
-      "crest": "https://crests.football-data.org/saudi_arabia.svg",
-      "playedGames": 0,
-      "won": 0,
-      "draw": 0,
-      "lost": 0,
-      "points": 0,
-      "goalDifference": 0,
-      "goalsFor": 0,
-      "goalsAgainst": 0
-    },
-    {
-      "position": 3,
-      "team": "Uruguay",
-      "crest": "https://crests.football-data.org/758.svg",
-      "playedGames": 0,
-      "won": 0,
-      "draw": 0,
-      "lost": 0,
-      "points": 0,
       "goalDifference": 0,
       "goalsFor": 0,
       "goalsAgainst": 0
