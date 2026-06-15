@@ -189,11 +189,11 @@
     "awayCode": "EGY",
     "awayCrest": "https://crests.football-data.org/825.svg",
     "time": "2026-06-15T19:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "stage": "GROUP_STAGE",
     "group": "GROUP_G",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 0,
+    "awayScore": 1
   },
   {
     "home": "Saudi Arabia",
