@@ -272,6 +272,19 @@
   "Group F": [
     {
       "position": 1,
+      "team": "Sweden",
+      "crest": "https://crests.football-data.org/792.svg",
+      "playedGames": 1,
+      "won": 1,
+      "draw": 0,
+      "lost": 0,
+      "points": 3,
+      "goalDifference": 4,
+      "goalsFor": 5,
+      "goalsAgainst": 1
+    },
+    {
+      "position": 2,
       "team": "Japan",
       "crest": "https://crests.football-data.org/766.svg",
       "playedGames": 1,
@@ -284,7 +297,7 @@
       "goalsAgainst": 2
     },
     {
-      "position": 1,
+      "position": 2,
       "team": "Netherlands",
       "crest": "https://crests.football-data.org/8601.svg",
       "playedGames": 1,
@@ -297,30 +310,17 @@
       "goalsAgainst": 2
     },
     {
-      "position": 3,
-      "team": "Sweden",
-      "crest": "https://crests.football-data.org/792.svg",
-      "playedGames": 0,
-      "won": 0,
-      "draw": 0,
-      "lost": 0,
-      "points": 0,
-      "goalDifference": 0,
-      "goalsFor": 0,
-      "goalsAgainst": 0
-    },
-    {
-      "position": 3,
+      "position": 4,
       "team": "Tunisia",
       "crest": "https://crests.football-data.org/tunisia.svg",
-      "playedGames": 0,
+      "playedGames": 1,
       "won": 0,
       "draw": 0,
-      "lost": 0,
+      "lost": 1,
       "points": 0,
-      "goalDifference": 0,
-      "goalsFor": 0,
-      "goalsAgainst": 0
+      "goalDifference": -4,
+      "goalsFor": 1,
+      "goalsAgainst": 5
     }
   ],
   "Group G": [
