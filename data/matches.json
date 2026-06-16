@@ -38,8 +38,8 @@
     "status": "FINISHED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_B",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 1,
+    "awayScore": 1
   },
   {
     "home": "United States",
@@ -231,7 +231,7 @@
     "awayCode": "SEN",
     "awayCrest": "https://crests.football-data.org/senegal.svg",
     "time": "2026-06-16T19:00:00Z",
-    "status": "PAUSED",
+    "status": "IN_PLAY",
     "stage": "GROUP_STAGE",
     "group": "GROUP_I",
     "homeScore": 0,
