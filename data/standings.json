@@ -326,6 +326,32 @@
   "Group G": [
     {
       "position": 1,
+      "team": "Iran",
+      "crest": "https://crests.football-data.org/iran.svg",
+      "playedGames": 1,
+      "won": 0,
+      "draw": 1,
+      "lost": 0,
+      "points": 1,
+      "goalDifference": 0,
+      "goalsFor": 1,
+      "goalsAgainst": 1
+    },
+    {
+      "position": 1,
+      "team": "New Zealand",
+      "crest": "https://crests.football-data.org/783.svg",
+      "playedGames": 1,
+      "won": 0,
+      "draw": 1,
+      "lost": 0,
+      "points": 1,
+      "goalDifference": 0,
+      "goalsFor": 1,
+      "goalsAgainst": 1
+    },
+    {
+      "position": 3,
       "team": "Belgium",
       "crest": "https://crests.football-data.org/805.svg",
       "playedGames": 1,
@@ -338,7 +364,7 @@
       "goalsAgainst": 1
     },
     {
-      "position": 2,
+      "position": 4,
       "team": "Egypt",
       "crest": "https://crests.football-data.org/825.svg",
       "playedGames": 1,
@@ -349,32 +375,6 @@
       "goalDifference": 0,
       "goalsFor": 1,
       "goalsAgainst": 1
-    },
-    {
-      "position": 3,
-      "team": "Iran",
-      "crest": "https://crests.football-data.org/iran.svg",
-      "playedGames": 0,
-      "won": 0,
-      "draw": 0,
-      "lost": 0,
-      "points": 0,
-      "goalDifference": 0,
-      "goalsFor": 0,
-      "goalsAgainst": 0
-    },
-    {
-      "position": 3,
-      "team": "New Zealand",
-      "crest": "https://crests.football-data.org/783.svg",
-      "playedGames": 0,
-      "won": 0,
-      "draw": 0,
-      "lost": 0,
-      "points": 0,
-      "goalDifference": 0,
-      "goalsFor": 0,
-      "goalsAgainst": 0
     }
   ],
   "Group H": [
