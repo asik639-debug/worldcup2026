@@ -604,8 +604,8 @@
       "lost": 0,
       "points": 3,
       "goalDifference": 1,
-      "goalsFor": 1,
-      "goalsAgainst": 0
+      "goalsFor": 3,
+      "goalsAgainst": 2
     },
     {
       "position": 2,
@@ -643,8 +643,8 @@
       "lost": 1,
       "points": 0,
       "goalDifference": -1,
-      "goalsFor": 0,
-      "goalsAgainst": 1
+      "goalsFor": 2,
+      "goalsAgainst": 3
     }
   ]
 }
