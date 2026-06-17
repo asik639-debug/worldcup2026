@@ -603,19 +603,19 @@
       "draw": 0,
       "lost": 0,
       "points": 3,
-      "goalDifference": 1,
-      "goalsFor": 3,
+      "goalDifference": 2,
+      "goalsFor": 4,
       "goalsAgainst": 2
     },
     {
       "position": 2,
       "team": "Ghana",
       "crest": "https://crests.football-data.org/ghana.svg",
-      "playedGames": 0,
+      "playedGames": 1,
       "won": 0,
-      "draw": 0,
+      "draw": 1,
       "lost": 0,
-      "points": 0,
+      "points": 1,
       "goalDifference": 0,
       "goalsFor": 0,
       "goalsAgainst": 0
@@ -624,11 +624,11 @@
       "position": 2,
       "team": "Panama",
       "crest": "https://crests.football-data.org/panama.svg",
-      "playedGames": 0,
+      "playedGames": 1,
       "won": 0,
-      "draw": 0,
+      "draw": 1,
       "lost": 0,
-      "points": 0,
+      "points": 1,
       "goalDifference": 0,
       "goalsFor": 0,
       "goalsAgainst": 0
@@ -642,9 +642,9 @@
       "draw": 0,
       "lost": 1,
       "points": 0,
-      "goalDifference": -1,
+      "goalDifference": -2,
       "goalsFor": 2,
-      "goalsAgainst": 3
+      "goalsAgainst": 4
     }
   ]
 }
