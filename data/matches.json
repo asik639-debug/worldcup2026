@@ -287,11 +287,11 @@
     "awayCode": "COD",
     "awayCrest": "https://crests.football-data.org/congo_dr.svg",
     "time": "2026-06-17T17:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "stage": "GROUP_STAGE",
     "group": "GROUP_K",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 1,
+    "awayScore": 0
   },
   {
     "home": "England",
