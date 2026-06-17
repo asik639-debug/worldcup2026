@@ -245,11 +245,11 @@
     "awayCode": "NOR",
     "awayCrest": "https://crests.football-data.org/813.svg",
     "time": "2026-06-16T22:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_I",
     "homeScore": 1,
-    "awayScore": 3
+    "awayScore": 4
   },
   {
     "home": "Argentina",
@@ -259,11 +259,11 @@
     "awayCode": "ALG",
     "awayCrest": "https://crests.football-data.org/algeria.svg",
     "time": "2026-06-17T01:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_J",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 3,
+    "awayScore": 0
   },
   {
     "home": "Austria",
@@ -273,11 +273,11 @@
     "awayCode": "JOR",
     "awayCrest": "https://crests.football-data.org/8049.png",
     "time": "2026-06-17T04:00:00Z",
-    "status": "TIMED",
+    "status": "PAUSED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_J",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 1,
+    "awayScore": 0
   },
   {
     "home": "Portugal",
