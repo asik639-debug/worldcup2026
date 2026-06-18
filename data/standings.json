@@ -72,29 +72,16 @@
       "team": "Canada",
       "crest": "https://crests.football-data.org/canada.svg",
       "playedGames": 2,
-      "won": 0,
-      "draw": 2,
+      "won": 1,
+      "draw": 1,
       "lost": 0,
-      "points": 2,
-      "goalDifference": 0,
-      "goalsFor": 1,
+      "points": 4,
+      "goalDifference": 3,
+      "goalsFor": 4,
       "goalsAgainst": 1
     },
     {
       "position": 3,
-      "team": "Qatar",
-      "crest": "https://crests.football-data.org/8030.svg",
-      "playedGames": 2,
-      "won": 0,
-      "draw": 2,
-      "lost": 0,
-      "points": 2,
-      "goalDifference": 0,
-      "goalsFor": 1,
-      "goalsAgainst": 1
-    },
-    {
-      "position": 4,
       "team": "Bosnia-Herzegovina",
       "crest": "https://crests.football-data.org/bosnia.svg",
       "playedGames": 2,
@@ -105,6 +92,19 @@
       "goalDifference": -3,
       "goalsFor": 2,
       "goalsAgainst": 5
+    },
+    {
+      "position": 4,
+      "team": "Qatar",
+      "crest": "https://crests.football-data.org/8030.svg",
+      "playedGames": 2,
+      "won": 0,
+      "draw": 1,
+      "lost": 1,
+      "points": 1,
+      "goalDifference": -3,
+      "goalsFor": 1,
+      "goalsAgainst": 4
     }
   ],
   "Group C": [
