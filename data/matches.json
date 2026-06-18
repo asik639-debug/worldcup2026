@@ -371,11 +371,11 @@
     "awayCode": "QAT",
     "awayCrest": "https://crests.football-data.org/8030.svg",
     "time": "2026-06-18T22:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "stage": "GROUP_STAGE",
     "group": "GROUP_B",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 0,
+    "awayScore": 0
   },
   {
     "home": "Mexico",
