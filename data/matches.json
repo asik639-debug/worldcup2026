@@ -399,11 +399,11 @@
     "awayCode": "AUS",
     "awayCrest": "https://crests.football-data.org/779.svg",
     "time": "2026-06-19T19:00:00Z",
-    "status": "TIMED",
+    "status": "PAUSED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_D",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 2,
+    "awayScore": 0
   },
   {
     "home": "Scotland",
