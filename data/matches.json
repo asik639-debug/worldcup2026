@@ -413,11 +413,11 @@
     "awayCode": "MAR",
     "awayCrest": "https://crests.football-data.org/morocco.svg",
     "time": "2026-06-19T22:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "stage": "GROUP_STAGE",
     "group": "GROUP_C",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 0,
+    "awayScore": 1
   },
   {
     "home": "Brazil",
