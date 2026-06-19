@@ -56,6 +56,19 @@
   "Group B": [
     {
       "position": 1,
+      "team": "Canada",
+      "crest": "https://crests.football-data.org/canada.svg",
+      "playedGames": 2,
+      "won": 1,
+      "draw": 1,
+      "lost": 0,
+      "points": 4,
+      "goalDifference": 6,
+      "goalsFor": 7,
+      "goalsAgainst": 1
+    },
+    {
+      "position": 2,
       "team": "Switzerland",
       "crest": "https://crests.football-data.org/788.svg",
       "playedGames": 2,
@@ -66,19 +79,6 @@
       "goalDifference": 3,
       "goalsFor": 5,
       "goalsAgainst": 2
-    },
-    {
-      "position": 2,
-      "team": "Canada",
-      "crest": "https://crests.football-data.org/canada.svg",
-      "playedGames": 2,
-      "won": 1,
-      "draw": 1,
-      "lost": 0,
-      "points": 4,
-      "goalDifference": 3,
-      "goalsFor": 4,
-      "goalsAgainst": 1
     },
     {
       "position": 3,
@@ -102,9 +102,9 @@
       "draw": 1,
       "lost": 1,
       "points": 1,
-      "goalDifference": -3,
+      "goalDifference": -6,
       "goalsFor": 1,
-      "goalsAgainst": 4
+      "goalsAgainst": 7
     }
   ],
   "Group C": [
