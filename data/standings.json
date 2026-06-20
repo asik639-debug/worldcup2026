@@ -110,19 +110,6 @@
   "Group C": [
     {
       "position": 1,
-      "team": "Morocco",
-      "crest": "https://crests.football-data.org/morocco.svg",
-      "playedGames": 2,
-      "won": 1,
-      "draw": 1,
-      "lost": 0,
-      "points": 4,
-      "goalDifference": 1,
-      "goalsFor": 2,
-      "goalsAgainst": 1
-    },
-    {
-      "position": 2,
       "team": "Brazil",
       "crest": "https://crests.football-data.org/764.svg",
       "playedGames": 2,
@@ -132,6 +119,19 @@
       "points": 4,
       "goalDifference": 3,
       "goalsFor": 4,
+      "goalsAgainst": 1
+    },
+    {
+      "position": 2,
+      "team": "Morocco",
+      "crest": "https://crests.football-data.org/morocco.svg",
+      "playedGames": 2,
+      "won": 1,
+      "draw": 1,
+      "lost": 0,
+      "points": 4,
+      "goalDifference": 1,
+      "goalsFor": 2,
       "goalsAgainst": 1
     },
     {
@@ -190,29 +190,29 @@
     },
     {
       "position": 3,
-      "team": "Turkey",
-      "crest": "https://crests.football-data.org/803.svg",
-      "playedGames": 1,
-      "won": 0,
+      "team": "Paraguay",
+      "crest": "https://crests.football-data.org/761.svg",
+      "playedGames": 2,
+      "won": 1,
       "draw": 0,
       "lost": 1,
-      "points": 0,
+      "points": 3,
       "goalDifference": -2,
-      "goalsFor": 0,
-      "goalsAgainst": 2
+      "goalsFor": 2,
+      "goalsAgainst": 4
     },
     {
       "position": 4,
-      "team": "Paraguay",
-      "crest": "https://crests.football-data.org/761.svg",
-      "playedGames": 1,
+      "team": "Turkey",
+      "crest": "https://crests.football-data.org/803.svg",
+      "playedGames": 2,
       "won": 0,
       "draw": 0,
-      "lost": 1,
+      "lost": 2,
       "points": 0,
       "goalDifference": -3,
-      "goalsFor": 1,
-      "goalsAgainst": 4
+      "goalsFor": 0,
+      "goalsAgainst": 3
     }
   ],
   "Group E": [
