@@ -218,28 +218,28 @@
   "Group E": [
     {
       "position": 1,
-      "team": "Ivory Coast",
-      "crest": "https://crests.football-data.org/787.svg",
+      "team": "Germany",
+      "crest": "https://crests.football-data.org/759.svg",
       "playedGames": 2,
       "won": 2,
       "draw": 0,
       "lost": 0,
       "points": 6,
-      "goalDifference": 2,
-      "goalsFor": 2,
-      "goalsAgainst": 0
+      "goalDifference": 7,
+      "goalsFor": 9,
+      "goalsAgainst": 2
     },
     {
       "position": 2,
-      "team": "Germany",
-      "crest": "https://crests.football-data.org/759.svg",
+      "team": "Ivory Coast",
+      "crest": "https://crests.football-data.org/787.svg",
       "playedGames": 2,
       "won": 1,
       "draw": 0,
       "lost": 1,
       "points": 3,
-      "goalDifference": 5,
-      "goalsFor": 7,
+      "goalDifference": 0,
+      "goalsFor": 2,
       "goalsAgainst": 2
     },
     {
