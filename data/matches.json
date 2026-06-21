@@ -511,11 +511,11 @@
     "awayCode": "KSA",
     "awayCrest": "https://crests.football-data.org/saudi_arabia.svg",
     "time": "2026-06-21T16:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "stage": "GROUP_STAGE",
     "group": "GROUP_H",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 0,
+    "awayScore": 0
   },
   {
     "home": "Belgium",
