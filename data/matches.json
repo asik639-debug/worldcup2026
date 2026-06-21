@@ -542,8 +542,8 @@
     "status": "IN_PLAY",
     "stage": "GROUP_STAGE",
     "group": "GROUP_H",
-    "homeScore": 1,
-    "awayScore": 1
+    "homeScore": 2,
+    "awayScore": 2
   },
   {
     "home": "New Zealand",
