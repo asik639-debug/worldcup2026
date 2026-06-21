@@ -393,29 +393,29 @@
     },
     {
       "position": 2,
+      "team": "Cape Verde Islands",
+      "crest": "https://crests.football-data.org/cape_verde.svg",
+      "playedGames": 2,
+      "won": 1,
+      "draw": 1,
+      "lost": 0,
+      "points": 4,
+      "goalDifference": 1,
+      "goalsFor": 1,
+      "goalsAgainst": 0
+    },
+    {
+      "position": 3,
       "team": "Uruguay",
       "crest": "https://crests.football-data.org/758.svg",
       "playedGames": 2,
       "won": 0,
-      "draw": 2,
-      "lost": 0,
-      "points": 2,
-      "goalDifference": 0,
+      "draw": 1,
+      "lost": 1,
+      "points": 1,
+      "goalDifference": -1,
       "goalsFor": 1,
-      "goalsAgainst": 1
-    },
-    {
-      "position": 3,
-      "team": "Cape Verde Islands",
-      "crest": "https://crests.football-data.org/cape_verde.svg",
-      "playedGames": 2,
-      "won": 0,
-      "draw": 2,
-      "lost": 0,
-      "points": 2,
-      "goalDifference": 0,
-      "goalsFor": 0,
-      "goalsAgainst": 0
+      "goalsAgainst": 2
     },
     {
       "position": 4,

@@ -38,8 +38,8 @@
     "status": "FINISHED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_B",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 1,
+    "awayScore": 1
   },
   {
     "home": "United States",
@@ -200,7 +200,7 @@
     "homeCode": "KSA",
     "homeCrest": "https://crests.football-data.org/saudi_arabia.svg",
     "away": "Uruguay",
-    "awayCode": "URY",
+    "awayCode": "URU",
     "awayCrest": "https://crests.football-data.org/758.svg",
     "time": "2026-06-15T22:00:00Z",
     "status": "FINISHED",
@@ -533,7 +533,7 @@
   },
   {
     "home": "Uruguay",
-    "homeCode": "URY",
+    "homeCode": "URU",
     "homeCrest": "https://crests.football-data.org/758.svg",
     "away": "Cape Verde Islands",
     "awayCode": "CPV",
@@ -542,8 +542,8 @@
     "status": "IN_PLAY",
     "stage": "GROUP_STAGE",
     "group": "GROUP_H",
-    "homeScore": 0,
-    "awayScore": 0
+    "homeScore": 1,
+    "awayScore": 1
   },
   {
     "home": "New Zealand",
@@ -869,7 +869,7 @@
   },
   {
     "home": "Uruguay",
-    "homeCode": "URY",
+    "homeCode": "URU",
     "homeCrest": "https://crests.football-data.org/758.svg",
     "away": "Spain",
     "awayCode": "ESP",
