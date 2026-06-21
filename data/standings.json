@@ -380,32 +380,19 @@
   "Group H": [
     {
       "position": 1,
-      "team": "Saudi Arabia",
-      "crest": "https://crests.football-data.org/saudi_arabia.svg",
-      "playedGames": 2,
-      "won": 0,
-      "draw": 2,
-      "lost": 0,
-      "points": 2,
-      "goalDifference": 0,
-      "goalsFor": 1,
-      "goalsAgainst": 1
-    },
-    {
-      "position": 2,
       "team": "Spain",
       "crest": "https://crests.football-data.org/760.svg",
       "playedGames": 2,
-      "won": 0,
-      "draw": 2,
+      "won": 1,
+      "draw": 1,
       "lost": 0,
-      "points": 2,
-      "goalDifference": 0,
-      "goalsFor": 0,
+      "points": 4,
+      "goalDifference": 3,
+      "goalsFor": 3,
       "goalsAgainst": 0
     },
     {
-      "position": 3,
+      "position": 2,
       "team": "Uruguay",
       "crest": "https://crests.football-data.org/758.svg",
       "playedGames": 1,
@@ -416,6 +403,19 @@
       "goalDifference": 0,
       "goalsFor": 1,
       "goalsAgainst": 1
+    },
+    {
+      "position": 3,
+      "team": "Saudi Arabia",
+      "crest": "https://crests.football-data.org/saudi_arabia.svg",
+      "playedGames": 2,
+      "won": 0,
+      "draw": 1,
+      "lost": 1,
+      "points": 1,
+      "goalDifference": -3,
+      "goalsFor": 1,
+      "goalsAgainst": 4
     },
     {
       "position": 4,
