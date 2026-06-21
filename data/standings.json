@@ -395,17 +395,30 @@
       "position": 2,
       "team": "Uruguay",
       "crest": "https://crests.football-data.org/758.svg",
-      "playedGames": 1,
+      "playedGames": 2,
       "won": 0,
-      "draw": 1,
+      "draw": 2,
       "lost": 0,
-      "points": 1,
+      "points": 2,
       "goalDifference": 0,
       "goalsFor": 1,
       "goalsAgainst": 1
     },
     {
       "position": 3,
+      "team": "Cape Verde Islands",
+      "crest": "https://crests.football-data.org/cape_verde.svg",
+      "playedGames": 2,
+      "won": 0,
+      "draw": 2,
+      "lost": 0,
+      "points": 2,
+      "goalDifference": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0
+    },
+    {
+      "position": 4,
       "team": "Saudi Arabia",
       "crest": "https://crests.football-data.org/saudi_arabia.svg",
       "playedGames": 2,
@@ -416,19 +429,6 @@
       "goalDifference": -4,
       "goalsFor": 1,
       "goalsAgainst": 5
-    },
-    {
-      "position": 4,
-      "team": "Cape Verde Islands",
-      "crest": "https://crests.football-data.org/cape_verde.svg",
-      "playedGames": 1,
-      "won": 0,
-      "draw": 1,
-      "lost": 0,
-      "points": 1,
-      "goalDifference": 0,
-      "goalsFor": 0,
-      "goalsAgainst": 0
     }
   ],
   "Group I": [
