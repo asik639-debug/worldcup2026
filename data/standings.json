@@ -434,6 +434,19 @@
   "Group I": [
     {
       "position": 1,
+      "team": "France",
+      "crest": "https://crests.football-data.org/773.svg",
+      "playedGames": 2,
+      "won": 1,
+      "draw": 1,
+      "lost": 0,
+      "points": 4,
+      "goalDifference": 2,
+      "goalsFor": 3,
+      "goalsAgainst": 1
+    },
+    {
+      "position": 2,
       "team": "Norway",
       "crest": "https://crests.football-data.org/813.svg",
       "playedGames": 1,
@@ -446,20 +459,20 @@
       "goalsAgainst": 1
     },
     {
-      "position": 2,
-      "team": "France",
-      "crest": "https://crests.football-data.org/773.svg",
-      "playedGames": 1,
-      "won": 1,
-      "draw": 0,
-      "lost": 0,
-      "points": 3,
-      "goalDifference": 2,
-      "goalsFor": 3,
-      "goalsAgainst": 1
+      "position": 3,
+      "team": "Iraq",
+      "crest": "https://crests.football-data.org/iraq.svg",
+      "playedGames": 2,
+      "won": 0,
+      "draw": 1,
+      "lost": 1,
+      "points": 1,
+      "goalDifference": -3,
+      "goalsFor": 1,
+      "goalsAgainst": 4
     },
     {
-      "position": 3,
+      "position": 4,
       "team": "Senegal",
       "crest": "https://crests.football-data.org/senegal.svg",
       "playedGames": 1,
@@ -470,19 +483,6 @@
       "goalDifference": -2,
       "goalsFor": 1,
       "goalsAgainst": 3
-    },
-    {
-      "position": 4,
-      "team": "Iraq",
-      "crest": "https://crests.football-data.org/iraq.svg",
-      "playedGames": 1,
-      "won": 0,
-      "draw": 0,
-      "lost": 1,
-      "points": 0,
-      "goalDifference": -3,
-      "goalsFor": 1,
-      "goalsAgainst": 4
     }
   ],
   "Group J": [
