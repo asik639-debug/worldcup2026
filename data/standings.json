@@ -491,12 +491,12 @@
       "team": "Argentina",
       "crest": "https://crests.football-data.org/762.png",
       "playedGames": 2,
-      "won": 1,
-      "draw": 1,
+      "won": 2,
+      "draw": 0,
       "lost": 0,
-      "points": 4,
-      "goalDifference": 3,
-      "goalsFor": 3,
+      "points": 6,
+      "goalDifference": 4,
+      "goalsFor": 4,
       "goalsAgainst": 0
     },
     {
@@ -505,12 +505,12 @@
       "crest": "https://crests.football-data.org/816.svg",
       "playedGames": 2,
       "won": 1,
-      "draw": 1,
-      "lost": 0,
-      "points": 4,
-      "goalDifference": 2,
+      "draw": 0,
+      "lost": 1,
+      "points": 3,
+      "goalDifference": 1,
       "goalsFor": 3,
-      "goalsAgainst": 1
+      "goalsAgainst": 2
     },
     {
       "position": 3,
