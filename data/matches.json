@@ -200,7 +200,7 @@
     "homeCode": "KSA",
     "homeCrest": "https://crests.football-data.org/saudi_arabia.svg",
     "away": "Uruguay",
-    "awayCode": "URY",
+    "awayCode": "URU",
     "awayCrest": "https://crests.football-data.org/758.svg",
     "time": "2026-06-15T22:00:00Z",
     "status": "FINISHED",
@@ -533,7 +533,7 @@
   },
   {
     "home": "Uruguay",
-    "homeCode": "URY",
+    "homeCode": "URU",
     "homeCrest": "https://crests.football-data.org/758.svg",
     "away": "Cape Verde Islands",
     "awayCode": "CPV",
@@ -567,10 +567,10 @@
     "awayCode": "AUT",
     "awayCrest": "https://crests.football-data.org/816.svg",
     "time": "2026-06-22T17:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_J",
-    "homeScore": 1,
+    "homeScore": 2,
     "awayScore": 0
   },
   {
@@ -869,7 +869,7 @@
   },
   {
     "home": "Uruguay",
-    "homeCode": "URY",
+    "homeCode": "URU",
     "homeCrest": "https://crests.football-data.org/758.svg",
     "away": "Spain",
     "awayCode": "ESP",
