@@ -333,8 +333,8 @@
       "draw": 1,
       "lost": 0,
       "points": 4,
-      "goalDifference": 1,
-      "goalsFor": 3,
+      "goalDifference": 2,
+      "goalsFor": 4,
       "goalsAgainst": 2
     },
     {
@@ -372,9 +372,9 @@
       "draw": 1,
       "lost": 1,
       "points": 1,
-      "goalDifference": -1,
+      "goalDifference": -2,
       "goalsFor": 3,
-      "goalsAgainst": 4
+      "goalsAgainst": 5
     }
   ],
   "Group H": [
