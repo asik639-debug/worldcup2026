@@ -38,8 +38,8 @@
     "status": "FINISHED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_B",
-    "homeScore": 1,
-    "awayScore": 1
+    "homeScore": null,
+    "awayScore": null
   },
   {
     "home": "United States",
@@ -623,10 +623,10 @@
     "awayCode": "UZB",
     "awayCrest": "https://crests.football-data.org/8070.png",
     "time": "2026-06-23T17:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_K",
-    "homeScore": 4,
+    "homeScore": 5,
     "awayScore": 0
   },
   {

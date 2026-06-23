@@ -549,8 +549,8 @@
       "draw": 1,
       "lost": 0,
       "points": 4,
-      "goalDifference": 4,
-      "goalsFor": 5,
+      "goalDifference": 5,
+      "goalsFor": 6,
       "goalsAgainst": 1
     },
     {
@@ -588,9 +588,9 @@
       "draw": 0,
       "lost": 2,
       "points": 0,
-      "goalDifference": -6,
+      "goalDifference": -7,
       "goalsFor": 1,
-      "goalsAgainst": 7
+      "goalsAgainst": 8
     }
   ],
   "Group L": [
