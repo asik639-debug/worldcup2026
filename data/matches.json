@@ -200,7 +200,7 @@
     "homeCode": "KSA",
     "homeCrest": "https://crests.football-data.org/saudi_arabia.svg",
     "away": "Uruguay",
-    "awayCode": "URU",
+    "awayCode": "URY",
     "awayCrest": "https://crests.football-data.org/758.svg",
     "time": "2026-06-15T22:00:00Z",
     "status": "FINISHED",
@@ -533,7 +533,7 @@
   },
   {
     "home": "Uruguay",
-    "homeCode": "URU",
+    "homeCode": "URY",
     "homeCrest": "https://crests.football-data.org/758.svg",
     "away": "Cape Verde Islands",
     "awayCode": "CPV",
@@ -869,7 +869,7 @@
   },
   {
     "home": "Uruguay",
-    "homeCode": "URU",
+    "homeCode": "URY",
     "homeCrest": "https://crests.football-data.org/758.svg",
     "away": "Spain",
     "awayCode": "ESP",
@@ -1036,9 +1036,9 @@
     "awayScore": null
   },
   {
-    "home": "Germany",
-    "homeCode": "GER",
-    "homeCrest": "https://crests.football-data.org/759.svg",
+    "home": null,
+    "homeCode": null,
+    "homeCrest": null,
     "away": null,
     "awayCode": null,
     "awayCrest": null,
@@ -1092,9 +1092,9 @@
     "awayScore": null
   },
   {
-    "home": "Mexico",
-    "homeCode": "MEX",
-    "homeCrest": "https://crests.football-data.org/769.svg",
+    "home": null,
+    "homeCode": null,
+    "homeCrest": null,
     "away": null,
     "awayCode": null,
     "awayCrest": null,
@@ -1134,9 +1134,9 @@
     "awayScore": null
   },
   {
-    "home": "United States",
-    "homeCode": "USA",
-    "homeCrest": "https://crests.football-data.org/usa.svg",
+    "home": null,
+    "homeCode": null,
+    "homeCrest": null,
     "away": null,
     "awayCode": null,
     "awayCrest": null,
