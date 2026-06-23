@@ -514,29 +514,29 @@
     },
     {
       "position": 3,
-      "team": "Jordan",
-      "crest": "https://crests.football-data.org/8049.png",
+      "team": "Algeria",
+      "crest": "https://crests.football-data.org/algeria.svg",
       "playedGames": 2,
       "won": 1,
       "draw": 0,
       "lost": 1,
       "points": 3,
-      "goalDifference": -1,
+      "goalDifference": -2,
       "goalsFor": 2,
-      "goalsAgainst": 3
+      "goalsAgainst": 4
     },
     {
       "position": 4,
-      "team": "Algeria",
-      "crest": "https://crests.football-data.org/algeria.svg",
+      "team": "Jordan",
+      "crest": "https://crests.football-data.org/8049.png",
       "playedGames": 2,
       "won": 0,
       "draw": 0,
       "lost": 2,
       "points": 0,
-      "goalDifference": -4,
-      "goalsFor": 0,
-      "goalsAgainst": 4
+      "goalDifference": -3,
+      "goalsFor": 2,
+      "goalsAgainst": 5
     }
   ],
   "Group K": [
