@@ -200,7 +200,7 @@
     "homeCode": "KSA",
     "homeCrest": "https://crests.football-data.org/saudi_arabia.svg",
     "away": "Uruguay",
-    "awayCode": "URY",
+    "awayCode": "URU",
     "awayCrest": "https://crests.football-data.org/758.svg",
     "time": "2026-06-15T22:00:00Z",
     "status": "FINISHED",
@@ -533,7 +533,7 @@
   },
   {
     "home": "Uruguay",
-    "homeCode": "URY",
+    "homeCode": "URU",
     "homeCrest": "https://crests.football-data.org/758.svg",
     "away": "Cape Verde Islands",
     "awayCode": "CPV",
@@ -679,11 +679,11 @@
     "awayCode": "CAN",
     "awayCrest": "https://crests.football-data.org/canada.svg",
     "time": "2026-06-24T19:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "stage": "GROUP_STAGE",
     "group": "GROUP_B",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 1,
+    "awayScore": 0
   },
   {
     "home": "Bosnia-Herzegovina",
@@ -693,11 +693,11 @@
     "awayCode": "QAT",
     "awayCrest": "https://crests.football-data.org/8030.svg",
     "time": "2026-06-24T19:00:00Z",
-    "status": "TIMED",
+    "status": "LIVE",
     "stage": "GROUP_STAGE",
     "group": "GROUP_B",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 2,
+    "awayScore": 1
   },
   {
     "home": "Morocco",
@@ -869,7 +869,7 @@
   },
   {
     "home": "Uruguay",
-    "homeCode": "URY",
+    "homeCode": "URU",
     "homeCrest": "https://crests.football-data.org/758.svg",
     "away": "Spain",
     "awayCode": "ESP",
