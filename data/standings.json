@@ -542,6 +542,19 @@
   "Group K": [
     {
       "position": 1,
+      "team": "Colombia",
+      "crest": "https://crests.football-data.org/818.svg",
+      "playedGames": 2,
+      "won": 2,
+      "draw": 0,
+      "lost": 0,
+      "points": 6,
+      "goalDifference": 3,
+      "goalsFor": 4,
+      "goalsAgainst": 1
+    },
+    {
+      "position": 2,
       "team": "Portugal",
       "crest": "https://crests.football-data.org/765.svg",
       "playedGames": 2,
@@ -554,30 +567,17 @@
       "goalsAgainst": 1
     },
     {
-      "position": 2,
-      "team": "Colombia",
-      "crest": "https://crests.football-data.org/818.svg",
-      "playedGames": 1,
-      "won": 1,
-      "draw": 0,
-      "lost": 0,
-      "points": 3,
-      "goalDifference": 2,
-      "goalsFor": 3,
-      "goalsAgainst": 1
-    },
-    {
       "position": 3,
       "team": "Congo DR",
       "crest": "https://crests.football-data.org/congo_dr.svg",
-      "playedGames": 1,
+      "playedGames": 2,
       "won": 0,
       "draw": 1,
-      "lost": 0,
+      "lost": 1,
       "points": 1,
-      "goalDifference": 0,
+      "goalDifference": -1,
       "goalsFor": 1,
-      "goalsAgainst": 1
+      "goalsAgainst": 2
     },
     {
       "position": 4,
