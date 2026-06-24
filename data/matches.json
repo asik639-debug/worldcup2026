@@ -651,11 +651,11 @@
     "awayCode": "CRO",
     "awayCrest": "https://crests.football-data.org/799.svg",
     "time": "2026-06-23T23:00:00Z",
-    "status": "LIVE",
+    "status": "FINISHED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_L",
     "homeScore": 0,
-    "awayScore": 0
+    "awayScore": 1
   },
   {
     "home": "Colombia",
