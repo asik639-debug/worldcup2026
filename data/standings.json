@@ -63,9 +63,9 @@
       "draw": 1,
       "lost": 0,
       "points": 7,
-      "goalDifference": 5,
+      "goalDifference": 4,
       "goalsFor": 7,
-      "goalsAgainst": 2
+      "goalsAgainst": 3
     },
     {
       "position": 2,
@@ -76,8 +76,8 @@
       "draw": 1,
       "lost": 1,
       "points": 4,
-      "goalDifference": 4,
-      "goalsFor": 7,
+      "goalDifference": 5,
+      "goalsFor": 8,
       "goalsAgainst": 3
     },
     {
@@ -89,8 +89,8 @@
       "draw": 1,
       "lost": 1,
       "points": 4,
-      "goalDifference": -2,
-      "goalsFor": 4,
+      "goalDifference": -1,
+      "goalsFor": 5,
       "goalsAgainst": 6
     },
     {
@@ -102,9 +102,9 @@
       "draw": 1,
       "lost": 2,
       "points": 1,
-      "goalDifference": -7,
+      "goalDifference": -8,
       "goalsFor": 2,
-      "goalsAgainst": 9
+      "goalsAgainst": 10
     }
   ],
   "Group C": [
