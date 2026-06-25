@@ -238,8 +238,8 @@
       "draw": 0,
       "lost": 1,
       "points": 6,
-      "goalDifference": 1,
-      "goalsFor": 3,
+      "goalDifference": 2,
+      "goalsFor": 4,
       "goalsAgainst": 2
     },
     {
@@ -264,9 +264,9 @@
       "draw": 1,
       "lost": 2,
       "points": 1,
-      "goalDifference": -7,
+      "goalDifference": -8,
       "goalsFor": 1,
-      "goalsAgainst": 8
+      "goalsAgainst": 9
     }
   ],
   "Group F": [
