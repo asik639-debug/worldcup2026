@@ -200,7 +200,7 @@
     "homeCode": "KSA",
     "homeCrest": "https://crests.football-data.org/saudi_arabia.svg",
     "away": "Uruguay",
-    "awayCode": "URY",
+    "awayCode": "URU",
     "awayCrest": "https://crests.football-data.org/758.svg",
     "time": "2026-06-15T22:00:00Z",
     "status": "FINISHED",
@@ -533,7 +533,7 @@
   },
   {
     "home": "Uruguay",
-    "homeCode": "URY",
+    "homeCode": "URU",
     "homeCrest": "https://crests.football-data.org/758.svg",
     "away": "Cape Verde Islands",
     "awayCode": "CPV",
@@ -763,11 +763,11 @@
     "awayCode": "GER",
     "awayCrest": "https://crests.football-data.org/759.svg",
     "time": "2026-06-25T20:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_E",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 2,
+    "awayScore": 1
   },
   {
     "home": "Cura\u00e7ao",
@@ -777,11 +777,11 @@
     "awayCode": "CIV",
     "awayCrest": "https://crests.football-data.org/787.svg",
     "time": "2026-06-25T20:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_E",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 0,
+    "awayScore": 2
   },
   {
     "home": "Tunisia",
@@ -791,11 +791,11 @@
     "awayCode": "NED",
     "awayCrest": "https://crests.football-data.org/8601.svg",
     "time": "2026-06-25T23:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "stage": "GROUP_STAGE",
     "group": "GROUP_F",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 0,
+    "awayScore": 2
   },
   {
     "home": "Japan",
@@ -805,11 +805,11 @@
     "awayCode": "SWE",
     "awayCrest": "https://crests.football-data.org/792.svg",
     "time": "2026-06-25T23:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "stage": "GROUP_STAGE",
     "group": "GROUP_F",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 0,
+    "awayScore": 0
   },
   {
     "home": "Turkey",
@@ -869,7 +869,7 @@
   },
   {
     "home": "Uruguay",
-    "homeCode": "URY",
+    "homeCode": "URU",
     "homeCrest": "https://crests.football-data.org/758.svg",
     "away": "Spain",
     "awayCode": "ESP",
