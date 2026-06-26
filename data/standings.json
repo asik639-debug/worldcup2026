@@ -441,8 +441,8 @@
       "draw": 0,
       "lost": 0,
       "points": 9,
-      "goalDifference": 7,
-      "goalsFor": 9,
+      "goalDifference": 8,
+      "goalsFor": 10,
       "goalsAgainst": 2
     },
     {
@@ -454,9 +454,9 @@
       "draw": 0,
       "lost": 1,
       "points": 6,
-      "goalDifference": 2,
+      "goalDifference": 1,
       "goalsFor": 8,
-      "goalsAgainst": 6
+      "goalsAgainst": 7
     },
     {
       "position": 3,
@@ -467,8 +467,8 @@
       "draw": 0,
       "lost": 2,
       "points": 3,
-      "goalDifference": 0,
-      "goalsFor": 6,
+      "goalDifference": 2,
+      "goalsFor": 8,
       "goalsAgainst": 6
     },
     {
@@ -480,9 +480,9 @@
       "draw": 0,
       "lost": 3,
       "points": 0,
-      "goalDifference": -9,
+      "goalDifference": -11,
       "goalsFor": 1,
-      "goalsAgainst": 10
+      "goalsAgainst": 12
     }
   ],
   "Group J": [
