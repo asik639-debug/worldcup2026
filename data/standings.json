@@ -467,8 +467,8 @@
       "draw": 0,
       "lost": 2,
       "points": 3,
-      "goalDifference": -2,
-      "goalsFor": 4,
+      "goalDifference": 0,
+      "goalsFor": 6,
       "goalsAgainst": 6
     },
     {
@@ -480,9 +480,9 @@
       "draw": 0,
       "lost": 3,
       "points": 0,
-      "goalDifference": -7,
+      "goalDifference": -9,
       "goalsFor": 1,
-      "goalsAgainst": 8
+      "goalsAgainst": 10
     }
   ],
   "Group J": [
