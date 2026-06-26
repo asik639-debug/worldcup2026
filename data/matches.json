@@ -819,11 +819,11 @@
     "awayCode": "USA",
     "awayCrest": "https://crests.football-data.org/usa.svg",
     "time": "2026-06-26T02:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_D",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 3,
+    "awayScore": 2
   },
   {
     "home": "Paraguay",
@@ -833,11 +833,11 @@
     "awayCode": "AUS",
     "awayCrest": "https://crests.football-data.org/779.svg",
     "time": "2026-06-26T02:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_D",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 0,
+    "awayScore": 0
   },
   {
     "home": "Norway",
@@ -1036,9 +1036,9 @@
     "awayScore": null
   },
   {
-    "home": null,
-    "homeCode": null,
-    "homeCrest": null,
+    "home": "Germany",
+    "homeCode": "GER",
+    "homeCrest": "https://crests.football-data.org/759.svg",
     "away": null,
     "awayCode": null,
     "awayCrest": null,
@@ -1092,9 +1092,9 @@
     "awayScore": null
   },
   {
-    "home": null,
-    "homeCode": null,
-    "homeCrest": null,
+    "home": "Mexico",
+    "homeCode": "MEX",
+    "homeCrest": "https://crests.football-data.org/769.svg",
     "away": null,
     "awayCode": null,
     "awayCrest": null,
@@ -1134,9 +1134,9 @@
     "awayScore": null
   },
   {
-    "home": null,
-    "homeCode": null,
-    "homeCrest": null,
+    "home": "United States",
+    "homeCode": "USA",
+    "homeCrest": "https://crests.football-data.org/usa.svg",
     "away": null,
     "awayCode": null,
     "awayCrest": null,
@@ -1204,9 +1204,9 @@
     "awayScore": null
   },
   {
-    "home": null,
-    "homeCode": null,
-    "homeCrest": null,
+    "home": "Argentina",
+    "homeCode": "ARG",
+    "homeCrest": "https://crests.football-data.org/762.png",
     "away": null,
     "awayCode": null,
     "awayCrest": null,
