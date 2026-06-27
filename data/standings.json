@@ -544,11 +544,11 @@
       "position": 1,
       "team": "Colombia",
       "crest": "https://crests.football-data.org/818.svg",
-      "playedGames": 2,
+      "playedGames": 3,
       "won": 2,
-      "draw": 0,
+      "draw": 1,
       "lost": 0,
-      "points": 6,
+      "points": 7,
       "goalDifference": 3,
       "goalsFor": 4,
       "goalsAgainst": 1
@@ -557,11 +557,11 @@
       "position": 2,
       "team": "Portugal",
       "crest": "https://crests.football-data.org/765.svg",
-      "playedGames": 2,
+      "playedGames": 3,
       "won": 1,
-      "draw": 1,
+      "draw": 2,
       "lost": 0,
-      "points": 4,
+      "points": 5,
       "goalDifference": 5,
       "goalsFor": 6,
       "goalsAgainst": 1
@@ -570,11 +570,11 @@
       "position": 3,
       "team": "Congo DR",
       "crest": "https://crests.football-data.org/congo_dr.svg",
-      "playedGames": 2,
+      "playedGames": 3,
       "won": 0,
-      "draw": 1,
+      "draw": 2,
       "lost": 1,
-      "points": 1,
+      "points": 2,
       "goalDifference": -1,
       "goalsFor": 1,
       "goalsAgainst": 2
@@ -583,11 +583,11 @@
       "position": 4,
       "team": "Uzbekistan",
       "crest": "https://crests.football-data.org/8070.png",
-      "playedGames": 2,
+      "playedGames": 3,
       "won": 0,
-      "draw": 0,
+      "draw": 1,
       "lost": 2,
-      "points": 0,
+      "points": 1,
       "goalDifference": -7,
       "goalsFor": 1,
       "goalsAgainst": 8
@@ -617,8 +617,8 @@
       "lost": 1,
       "points": 6,
       "goalDifference": 0,
-      "goalsFor": 4,
-      "goalsAgainst": 4
+      "goalsFor": 5,
+      "goalsAgainst": 5
     },
     {
       "position": 3,
@@ -630,8 +630,8 @@
       "lost": 1,
       "points": 4,
       "goalDifference": 0,
-      "goalsFor": 1,
-      "goalsAgainst": 1
+      "goalsFor": 2,
+      "goalsAgainst": 2
     },
     {
       "position": 4,
