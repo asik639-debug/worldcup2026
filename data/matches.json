@@ -1064,9 +1064,9 @@
     "awayScore": null
   },
   {
-    "home": null,
-    "homeCode": null,
-    "homeCrest": null,
+    "home": "Ivory Coast",
+    "homeCode": "CIV",
+    "homeCrest": "https://crests.football-data.org/787.svg",
     "away": null,
     "awayCode": null,
     "awayCrest": null,
