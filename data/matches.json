@@ -847,11 +847,11 @@
     "awayCode": "FRA",
     "awayCrest": "https://crests.football-data.org/773.svg",
     "time": "2026-06-26T19:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_I",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 1,
+    "awayScore": 4
   },
   {
     "home": "Senegal",
@@ -861,11 +861,11 @@
     "awayCode": "IRQ",
     "awayCrest": "https://crests.football-data.org/iraq.svg",
     "time": "2026-06-26T19:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_I",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 5,
+    "awayScore": 0
   },
   {
     "home": "Uruguay",
@@ -921,7 +921,7 @@
     "stage": "GROUP_STAGE",
     "group": "GROUP_G",
     "homeScore": 1,
-    "awayScore": 2
+    "awayScore": 1
   },
   {
     "home": "Panama",
@@ -1064,9 +1064,9 @@
     "awayScore": null
   },
   {
-    "home": null,
-    "homeCode": null,
-    "homeCrest": null,
+    "home": "Ivory Coast",
+    "homeCode": "CIV",
+    "homeCrest": "https://crests.football-data.org/787.svg",
     "away": null,
     "awayCode": null,
     "awayCrest": null,
