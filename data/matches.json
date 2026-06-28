@@ -1015,11 +1015,11 @@
     "awayCode": "CAN",
     "awayCrest": "https://crests.football-data.org/canada.svg",
     "time": "2026-06-28T19:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "stage": "LAST_32",
     "group": null,
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 0,
+    "awayScore": 0
   },
   {
     "home": "Brazil",
