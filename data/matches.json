@@ -1015,7 +1015,7 @@
     "awayCode": "CAN",
     "awayCrest": "https://crests.football-data.org/canada.svg",
     "time": "2026-06-28T19:00:00Z",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "stage": "LAST_32",
     "group": null,
     "homeScore": 0,
