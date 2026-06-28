@@ -200,7 +200,7 @@
     "homeCode": "KSA",
     "homeCrest": "https://crests.football-data.org/saudi_arabia.svg",
     "away": "Uruguay",
-    "awayCode": "URY",
+    "awayCode": "URU",
     "awayCrest": "https://crests.football-data.org/758.svg",
     "time": "2026-06-15T22:00:00Z",
     "status": "FINISHED",
@@ -533,7 +533,7 @@
   },
   {
     "home": "Uruguay",
-    "homeCode": "URY",
+    "homeCode": "URU",
     "homeCrest": "https://crests.football-data.org/758.svg",
     "away": "Cape Verde Islands",
     "awayCode": "CPV",
@@ -869,7 +869,7 @@
   },
   {
     "home": "Uruguay",
-    "homeCode": "URY",
+    "homeCode": "URU",
     "homeCrest": "https://crests.football-data.org/758.svg",
     "away": "Spain",
     "awayCode": "ESP",
@@ -931,11 +931,11 @@
     "awayCode": "ENG",
     "awayCrest": "https://crests.football-data.org/770.svg",
     "time": "2026-06-27T21:00:00Z",
-    "status": "FINISHED",
+    "status": "TIMED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_L",
-    "homeScore": 0,
-    "awayScore": 2
+    "homeScore": null,
+    "awayScore": null
   },
   {
     "home": "Croatia",
@@ -945,11 +945,11 @@
     "awayCode": "GHA",
     "awayCrest": "https://crests.football-data.org/ghana.svg",
     "time": "2026-06-27T21:00:00Z",
-    "status": "FINISHED",
+    "status": "TIMED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_L",
-    "homeScore": 2,
-    "awayScore": 1
+    "homeScore": null,
+    "awayScore": null
   },
   {
     "home": "Colombia",
@@ -959,7 +959,7 @@
     "awayCode": "POR",
     "awayCrest": "https://crests.football-data.org/765.svg",
     "time": "2026-06-27T23:30:00Z",
-    "status": "LIVE",
+    "status": "FINISHED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_K",
     "homeScore": 0,
@@ -973,10 +973,10 @@
     "awayCode": "UZB",
     "awayCrest": "https://crests.football-data.org/8070.png",
     "time": "2026-06-27T23:30:00Z",
-    "status": "LIVE",
+    "status": "FINISHED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_K",
-    "homeScore": 0,
+    "homeScore": 3,
     "awayScore": 1
   },
   {
@@ -1008,12 +1008,12 @@
     "awayScore": null
   },
   {
-    "home": null,
-    "homeCode": null,
-    "homeCrest": null,
-    "away": null,
-    "awayCode": null,
-    "awayCrest": null,
+    "home": "South Africa",
+    "homeCode": "RSA",
+    "homeCrest": "https://crests.football-data.org/9396.svg",
+    "away": "Canada",
+    "awayCode": "CAN",
+    "awayCrest": "https://crests.football-data.org/canada.svg",
     "time": "2026-06-28T19:00:00Z",
     "status": "TIMED",
     "stage": "LAST_32",
@@ -1022,12 +1022,12 @@
     "awayScore": null
   },
   {
-    "home": null,
-    "homeCode": null,
-    "homeCrest": null,
-    "away": null,
-    "awayCode": null,
-    "awayCrest": null,
+    "home": "Brazil",
+    "homeCode": "BRA",
+    "homeCrest": "https://crests.football-data.org/764.svg",
+    "away": "Japan",
+    "awayCode": "JPN",
+    "awayCrest": "https://crests.football-data.org/766.svg",
     "time": "2026-06-29T17:00:00Z",
     "status": "TIMED",
     "stage": "LAST_32",
@@ -1036,9 +1036,9 @@
     "awayScore": null
   },
   {
-    "home": null,
-    "homeCode": null,
-    "homeCrest": null,
+    "home": "Germany",
+    "homeCode": "GER",
+    "homeCrest": "https://crests.football-data.org/759.svg",
     "away": null,
     "awayCode": null,
     "awayCrest": null,
@@ -1050,12 +1050,12 @@
     "awayScore": null
   },
   {
-    "home": null,
-    "homeCode": null,
-    "homeCrest": null,
-    "away": null,
-    "awayCode": null,
-    "awayCrest": null,
+    "home": "Netherlands",
+    "homeCode": "NED",
+    "homeCrest": "https://crests.football-data.org/8601.svg",
+    "away": "Morocco",
+    "awayCode": "MAR",
+    "awayCrest": "https://crests.football-data.org/morocco.svg",
     "time": "2026-06-30T01:00:00Z",
     "status": "TIMED",
     "stage": "LAST_32",
@@ -1064,9 +1064,9 @@
     "awayScore": null
   },
   {
-    "home": null,
-    "homeCode": null,
-    "homeCrest": null,
+    "home": "Ivory Coast",
+    "homeCode": "CIV",
+    "homeCrest": "https://crests.football-data.org/787.svg",
     "away": null,
     "awayCode": null,
     "awayCrest": null,
@@ -1092,9 +1092,9 @@
     "awayScore": null
   },
   {
-    "home": null,
-    "homeCode": null,
-    "homeCrest": null,
+    "home": "Mexico",
+    "homeCode": "MEX",
+    "homeCrest": "https://crests.football-data.org/769.svg",
     "away": null,
     "awayCode": null,
     "awayCrest": null,
@@ -1134,12 +1134,12 @@
     "awayScore": null
   },
   {
-    "home": null,
-    "homeCode": null,
-    "homeCrest": null,
-    "away": null,
-    "awayCode": null,
-    "awayCrest": null,
+    "home": "United States",
+    "homeCode": "USA",
+    "homeCrest": "https://crests.football-data.org/usa.svg",
+    "away": "Bosnia-Herzegovina",
+    "awayCode": "BIH",
+    "awayCrest": "https://crests.football-data.org/bosnia.svg",
     "time": "2026-07-02T00:00:00Z",
     "status": "TIMED",
     "stage": "LAST_32",
@@ -1176,9 +1176,9 @@
     "awayScore": null
   },
   {
-    "home": null,
-    "homeCode": null,
-    "homeCrest": null,
+    "home": "Switzerland",
+    "homeCode": "SUI",
+    "homeCrest": "https://crests.football-data.org/788.svg",
     "away": null,
     "awayCode": null,
     "awayCrest": null,
@@ -1190,9 +1190,9 @@
     "awayScore": null
   },
   {
-    "home": null,
-    "homeCode": null,
-    "homeCrest": null,
+    "home": "Australia",
+    "homeCode": "AUS",
+    "homeCrest": "https://crests.football-data.org/779.svg",
     "away": null,
     "awayCode": null,
     "awayCrest": null,
@@ -1204,9 +1204,9 @@
     "awayScore": null
   },
   {
-    "home": null,
-    "homeCode": null,
-    "homeCrest": null,
+    "home": "Argentina",
+    "homeCode": "ARG",
+    "homeCrest": "https://crests.football-data.org/762.png",
     "away": null,
     "awayCode": null,
     "awayCrest": null,
