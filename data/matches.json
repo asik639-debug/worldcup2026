@@ -1043,11 +1043,11 @@
     "awayCode": "PAR",
     "awayCrest": "https://crests.football-data.org/761.svg",
     "time": "2026-06-29T20:30:00Z",
-    "status": "PAUSED",
+    "status": "IN_PLAY",
     "stage": "LAST_32",
     "group": null,
-    "homeScore": 2,
-    "awayScore": 1
+    "homeScore": 4,
+    "awayScore": 4
   },
   {
     "home": "Netherlands",
