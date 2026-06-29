@@ -1232,9 +1232,9 @@
     "awayScore": null
   },
   {
-    "home": null,
-    "homeCode": null,
-    "homeCrest": null,
+    "home": "Canada",
+    "homeCode": "CAN",
+    "homeCrest": "https://crests.football-data.org/canada.svg",
     "away": null,
     "awayCode": null,
     "awayCrest": null,
