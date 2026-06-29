@@ -1029,11 +1029,11 @@
     "awayCode": "JPN",
     "awayCrest": "https://crests.football-data.org/766.svg",
     "time": "2026-06-29T17:00:00Z",
-    "status": "TIMED",
+    "status": "PAUSED",
     "stage": "LAST_32",
     "group": null,
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 0,
+    "awayScore": 1
   },
   {
     "home": "Germany",
