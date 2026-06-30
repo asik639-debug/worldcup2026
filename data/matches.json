@@ -1085,11 +1085,11 @@
     "awayCode": "SWE",
     "awayCrest": "https://crests.football-data.org/792.svg",
     "time": "2026-06-30T21:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "stage": "LAST_32",
     "group": null,
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 1,
+    "awayScore": 0
   },
   {
     "home": "Mexico",
