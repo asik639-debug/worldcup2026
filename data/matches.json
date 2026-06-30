@@ -1060,7 +1060,7 @@
     "status": "FINISHED",
     "stage": "LAST_32",
     "group": null,
-    "homeScore": 4,
+    "homeScore": 3,
     "awayScore": 4
   },
   {
@@ -1235,9 +1235,9 @@
     "home": "Canada",
     "homeCode": "CAN",
     "homeCrest": "https://crests.football-data.org/canada.svg",
-    "away": null,
-    "awayCode": null,
-    "awayCrest": null,
+    "away": "Morocco",
+    "awayCode": "MAR",
+    "awayCrest": "https://crests.football-data.org/morocco.svg",
     "time": "2026-07-04T17:00:00Z",
     "status": "TIMED",
     "stage": "LAST_16",
@@ -1246,9 +1246,9 @@
     "awayScore": null
   },
   {
-    "home": null,
-    "homeCode": null,
-    "homeCrest": null,
+    "home": "Paraguay",
+    "homeCode": "PAR",
+    "homeCrest": "https://crests.football-data.org/761.svg",
     "away": null,
     "awayCode": null,
     "awayCrest": null,
@@ -1260,9 +1260,9 @@
     "awayScore": null
   },
   {
-    "home": null,
-    "homeCode": null,
-    "homeCrest": null,
+    "home": "Brazil",
+    "homeCode": "BRA",
+    "homeCrest": "https://crests.football-data.org/764.svg",
     "away": null,
     "awayCode": null,
     "awayCrest": null,
