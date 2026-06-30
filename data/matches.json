@@ -1046,8 +1046,8 @@
     "status": "FINISHED",
     "stage": "LAST_32",
     "group": null,
-    "homeScore": 5,
-    "awayScore": 6
+    "homeScore": 4,
+    "awayScore": 5
   },
   {
     "home": "Netherlands",
@@ -1057,11 +1057,11 @@
     "awayCode": "MAR",
     "awayCrest": "https://crests.football-data.org/morocco.svg",
     "time": "2026-06-30T01:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "stage": "LAST_32",
     "group": null,
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 0,
+    "awayScore": 0
   },
   {
     "home": "Ivory Coast",
