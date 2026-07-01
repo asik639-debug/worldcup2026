@@ -1113,11 +1113,11 @@
     "awayCode": "COD",
     "awayCrest": "https://crests.football-data.org/congo_dr.svg",
     "time": "2026-07-01T16:00:00Z",
-    "status": "TIMED",
+    "status": "LIVE",
     "stage": "LAST_32",
     "group": null,
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 0,
+    "awayScore": 1
   },
   {
     "home": "Belgium",
