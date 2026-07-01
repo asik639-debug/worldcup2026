@@ -1127,10 +1127,10 @@
     "awayCode": "SEN",
     "awayCrest": "https://crests.football-data.org/senegal.svg",
     "time": "2026-07-01T20:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "stage": "LAST_32",
     "group": null,
-    "homeScore": 2,
+    "homeScore": 3,
     "awayScore": 2
   },
   {
