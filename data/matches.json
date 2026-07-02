@@ -1155,10 +1155,10 @@
     "awayCode": "AUT",
     "awayCrest": "https://crests.football-data.org/816.svg",
     "time": "2026-07-02T19:00:00Z",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "stage": "LAST_32",
     "group": null,
-    "homeScore": 1,
+    "homeScore": 3,
     "awayScore": 0
   },
   {
