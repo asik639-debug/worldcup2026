@@ -1197,11 +1197,11 @@
     "awayCode": "EGY",
     "awayCrest": "https://crests.football-data.org/825.svg",
     "time": "2026-07-03T18:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "stage": "LAST_32",
     "group": null,
-    "homeScore": 1,
-    "awayScore": 1
+    "homeScore": 3,
+    "awayScore": 5
   },
   {
     "home": "Argentina",
