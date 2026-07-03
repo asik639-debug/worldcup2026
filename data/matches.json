@@ -1214,8 +1214,8 @@
     "status": "IN_PLAY",
     "stage": "LAST_32",
     "group": null,
-    "homeScore": 0,
-    "awayScore": 0
+    "homeScore": 1,
+    "awayScore": 1
   },
   {
     "home": "Colombia",
