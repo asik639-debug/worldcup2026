@@ -1173,7 +1173,7 @@
     "stage": "LAST_32",
     "group": null,
     "homeScore": 2,
-    "awayScore": 2
+    "awayScore": 1
   },
   {
     "home": "Switzerland",
@@ -1183,11 +1183,11 @@
     "awayCode": "ALG",
     "awayCrest": "https://crests.football-data.org/algeria.svg",
     "time": "2026-07-03T03:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "stage": "LAST_32",
     "group": null,
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 2,
+    "awayScore": 0
   },
   {
     "home": "Australia",
