@@ -1253,11 +1253,11 @@
     "awayCode": "FRA",
     "awayCrest": "https://crests.football-data.org/773.svg",
     "time": "2026-07-04T21:00:00Z",
-    "status": "PAUSED",
+    "status": "IN_PLAY",
     "stage": "LAST_16",
     "group": null,
     "homeScore": 0,
-    "awayScore": 0
+    "awayScore": 1
   },
   {
     "home": "Brazil",
