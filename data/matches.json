@@ -1239,11 +1239,11 @@
     "awayCode": "MAR",
     "awayCrest": "https://crests.football-data.org/morocco.svg",
     "time": "2026-07-04T17:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "stage": "LAST_16",
     "group": null,
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 0,
+    "awayScore": 0
   },
   {
     "home": "Paraguay",
