@@ -1211,11 +1211,11 @@
     "awayCode": "CPV",
     "awayCrest": "https://crests.football-data.org/cape_verde.svg",
     "time": "2026-07-03T22:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "stage": "LAST_32",
     "group": null,
-    "homeScore": 1,
-    "awayScore": 1
+    "homeScore": 3,
+    "awayScore": 2
   },
   {
     "home": "Colombia",
