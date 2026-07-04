@@ -1225,11 +1225,11 @@
     "awayCode": "GHA",
     "awayCrest": "https://crests.football-data.org/ghana.svg",
     "time": "2026-07-04T01:30:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "stage": "LAST_32",
     "group": null,
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 1,
+    "awayScore": 0
   },
   {
     "home": "Canada",
