@@ -416,27 +416,104 @@ const date =
       }
     );
 
+let matchup = "";
+
+if (
+  match.homeScore !== null &&
+  match.awayScore !== null
+) {
+
+  const homeClass =
+    match.homeScore > match.awayScore
+      ? "bracket-winner"
+      : "bracket-loser";
+
+  const awayClass =
+    match.awayScore > match.homeScore
+      ? "bracket-winner"
+      : "bracket-loser";
+
+  matchup = `
+
+<div class="knockout-home ${homeClass}">
+
+  ${
+    match.homeCrest
+    ? `<img class="team-logo" src="${match.homeCrest}" alt="">`
+    : ""
+  }
+
+  <div>${home}</div>
+
+</div>
+
+<div class="knockout-score">
+
+  <span class="bracket-score">
+    ${match.homeScore}
+  </span>
+
+  :
+
+  <span class="bracket-score">
+    ${match.awayScore}
+  </span>
+
+</div>
+
+<div class="knockout-away ${awayClass}">
+
+  ${
+    match.awayCrest
+    ? `<img class="team-logo" src="${match.awayCrest}" alt="">`
+    : ""
+  }
+
+  <div>${away}</div>
+
+</div>
+
+  `;
+
+} else {
+
+  matchup = `
+
+<div class="knockout-home">
+
+  ${
+    match.homeCrest
+    ? `<img class="team-logo" src="${match.homeCrest}" alt="">`
+    : ""
+  }
+
+  <div>${home}</div>
+
+</div>
+
+<div class="knockout-score">
+  <span class="vs-text">vs</span>
+</div>
+
+<div class="knockout-away">
+
+  ${
+    match.awayCrest
+    ? `<img class="team-logo" src="${match.awayCrest}" alt="">`
+    : ""
+  }
+
+  <div>${away}</div>
+
+</div>
+
+  `;
+
+}
+
 game.innerHTML = `
-  <div>
-
-    ${
-      match.homeCrest
-      ? `<img class="team-logo" src="${match.homeCrest}" alt="">`
-      : ""
-    }
-
-    ${home}
-
-    vs
-
-    ${
-      match.awayCrest
-      ? `<img class="team-logo" src="${match.awayCrest}" alt="">`
-      : ""
-    }
-
-    ${away}
-
+  <div class="bracket-teams">
+    ${matchup}
   </div>
 
   <div class="bracket-date">
