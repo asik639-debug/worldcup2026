@@ -1281,11 +1281,11 @@
     "awayCode": "ENG",
     "awayCrest": "https://crests.football-data.org/770.svg",
     "time": "2026-07-06T01:00:00Z",
-    "status": "2026-07-06 01:00:00Z",
+    "status": "IN_PLAY",
     "stage": "LAST_16",
     "group": null,
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 0,
+    "awayScore": 0
   },
   {
     "home": "Portugal",
