@@ -1295,7 +1295,7 @@
     "awayCode": "ESP",
     "awayCrest": "https://crests.football-data.org/760.svg",
     "time": "2026-07-06T19:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "stage": "LAST_16",
     "group": null,
     "homeScore": 0,
