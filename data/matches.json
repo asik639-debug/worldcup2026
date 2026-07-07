@@ -1323,11 +1323,11 @@
     "awayCode": "EGY",
     "awayCrest": "https://crests.football-data.org/825.svg",
     "time": "2026-07-07T16:00:00Z",
-    "status": "TIMED",
+    "status": "LIVE",
     "stage": "LAST_16",
     "group": null,
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 0,
+    "awayScore": 1
   },
   {
     "home": "Switzerland",
