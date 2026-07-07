@@ -1295,11 +1295,11 @@
     "awayCode": "ESP",
     "awayCrest": "https://crests.football-data.org/760.svg",
     "time": "2026-07-06T19:00:00Z",
-    "status": "LIVE",
+    "status": "FINISHED",
     "stage": "LAST_16",
     "group": null,
     "homeScore": 0,
-    "awayScore": 0
+    "awayScore": 1
   },
   {
     "home": "United States",
@@ -1309,11 +1309,11 @@
     "awayCode": "BEL",
     "awayCrest": "https://crests.football-data.org/805.svg",
     "time": "2026-07-07T00:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "stage": "LAST_16",
     "group": null,
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 1,
+    "awayScore": 4
   },
   {
     "home": "Argentina",
@@ -1323,11 +1323,11 @@
     "awayCode": "EGY",
     "awayCrest": "https://crests.football-data.org/825.svg",
     "time": "2026-07-07T16:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "stage": "LAST_16",
     "group": null,
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 3,
+    "awayScore": 2
   },
   {
     "home": "Switzerland",
@@ -1358,12 +1358,12 @@
     "awayScore": null
   },
   {
-    "home": null,
-    "homeCode": null,
-    "homeCrest": null,
-    "away": null,
-    "awayCode": null,
-    "awayCrest": null,
+    "home": "Spain",
+    "homeCode": "ESP",
+    "homeCrest": "https://crests.football-data.org/760.svg",
+    "away": "Belgium",
+    "awayCode": "BEL",
+    "awayCrest": "https://crests.football-data.org/805.svg",
     "time": "2026-07-10T19:00:00Z",
     "status": "TIMED",
     "stage": "QUARTER_FINALS",
