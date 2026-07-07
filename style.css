@@ -148,10 +148,14 @@ h2 {
 }
 
 #bracket {
-    display: flex;
+    display: grid;
+    grid-template-columns:
+        1fr
+        auto
+        1fr;
+
     align-items: center;
-    gap: 25px;
-    overflow-x: auto;
+    column-gap: 40px;
     padding: 20px 0;
 }
 
@@ -194,16 +198,6 @@ h2 {
     color: #888;
     text-align: right;
     margin-bottom: 25px;
-}
-
-#projected-qualifiers {
-    background: #121212;
-    padding: 15px;
-    border-radius: 12px;
-}
-
-#projected-section {
-    display: none
 }
 
 summary {
@@ -254,16 +248,6 @@ summary {
     position: relative;
 }
 
-.final {
-    justify-content: center;
-    margin-bottom: 150px;
-}
-
-.third_place {
-    justify-content: center;
-    margin-bottom: 150px;
-}
-
 .team-logo {
     width: 35px;
     height: 35px;
@@ -274,7 +258,7 @@ summary {
     margin-bottom: 3px;
 }
 
-.bracket-teams .team-logo {
+.bracket-logo {
 
     width: 25px;
     height: 28px;
@@ -303,11 +287,11 @@ summary {
 
     display: flex;
 
-    justify-content: start;
+    justify-content: space-between;
 
     align-items: center;
 
-    gap: 9px;
+    gap: 12px;
 }
 
 .knockout-home,
@@ -335,4 +319,58 @@ summary {
     font-size: 1.4rem;
 
     font-weight: bold;
+}
+
+.bracket-side {
+
+    display: flex;
+
+    gap: 25px;
+
+    align-items: center;
+
+}
+
+.left-side {
+
+    justify-content: flex-end;
+
+}
+
+.right-side {
+
+    justify-content: flex-start;
+
+}
+
+.bracket-center {
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    gap: 50px;
+
+}
+
+.bracket-center {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+.center-matches {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 40px;
+
+    align-items: center;
 }
