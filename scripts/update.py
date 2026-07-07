@@ -107,3 +107,15 @@ print(f"Updated {len(standings)} groups")
 
 #group = data["standings"][0]
 #print(group["table"][0])
+
+print("\n--- KNOCKOUT MATCH IDS ---")
+
+for match in matches:
+
+    if match["stage"] != "GROUP_STAGE":
+
+        print(
+            f'{match["id"]} | '
+            f'{match["stage"]:<16} | '
+            f'{match["home"]} vs {match["away"]}'
+        )
