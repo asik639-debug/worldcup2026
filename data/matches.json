@@ -1358,12 +1358,12 @@
     "awayScore": null
   },
   {
-    "home": null,
-    "homeCode": null,
-    "homeCrest": null,
-    "away": null,
-    "awayCode": null,
-    "awayCrest": null,
+    "home": "Spain",
+    "homeCode": "ESP",
+    "homeCrest": "https://crests.football-data.org/760.svg",
+    "away": "Belgium",
+    "awayCode": "BEL",
+    "awayCrest": "https://crests.football-data.org/805.svg",
     "time": "2026-07-10T19:00:00Z",
     "status": "TIMED",
     "stage": "QUARTER_FINALS",
