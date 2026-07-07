@@ -1309,11 +1309,11 @@
     "awayCode": "BEL",
     "awayCrest": "https://crests.football-data.org/805.svg",
     "time": "2026-07-07T00:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "stage": "LAST_16",
     "group": null,
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 1,
+    "awayScore": 2
   },
   {
     "home": "Argentina",
