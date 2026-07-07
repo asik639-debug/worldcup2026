@@ -1433,11 +1433,11 @@
     "awayCode": "COL",
     "awayCrest": "https://crests.football-data.org/818.svg",
     "time": "2026-07-07T20:00:00Z",
-    "status": "LIVE",
+    "status": "FINISHED",
     "stage": "LAST_16",
     "group": null,
-    "homeScore": 0,
-    "awayScore": 0
+    "homeScore": 4,
+    "awayScore": 3
   },
   {
     "id": 537383,
