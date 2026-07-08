@@ -417,30 +417,51 @@ const rounds = {
 
 function createStage(stageClass, title, stageMatches) {
 
-  if (stageMatches.length === 0) {
-    return null;
-  }
+    if (stageMatches.length === 0) {
+        return null;
+    }
 
-  const section =
-    document.createElement("div");
+    const section = document.createElement("div");
+    section.className = `bracket-stage ${stageClass}`;
 
-  section.className =
-    `bracket-stage ${stageClass}`;
+    const heading = document.createElement("h3");
+    heading.textContent = title;
 
-  const heading =
-    document.createElement("h3");
+    const grid = document.createElement("div");
+    grid.className = "stage-grid";
 
-  heading.textContent = title;
+    const rowMap = {
 
-  section.appendChild(heading);
+        last_32:         [1, 3, 5, 7, 9, 11, 13, 15],
 
-  stageMatches.forEach(match => {
-    section.appendChild(
-      createBracketMatch(match)
-    );
-  });
+        last_16:         [2, 6, 10, 14],
 
-  return section;
+        quarter_finals:  [4, 12],
+
+        semi_finals:     [8],
+
+        final:           [2],
+
+        third_place:     [1]
+
+    };
+
+    stageMatches.forEach((match, index) => {
+
+        const game =
+            createBracketMatch(match);
+
+        game.style.gridRow =
+            rowMap[stageClass][index];
+
+        grid.appendChild(game);
+
+    });
+
+    section.appendChild(heading);
+    section.appendChild(grid);
+
+    return section;
 }
 
 const matchById = {};
@@ -511,31 +532,7 @@ const thirdPlace = [
   537389
 ].map(id => matchById[id]);
 
-const leftSide =
-  document.createElement("div");
-
-leftSide.className =
-  "bracket-side left-side";
-
-const centerSide =
-  document.createElement("div");
-
-centerSide.className =
-  "bracket-center";
-
-const centerMatches =
-  document.createElement("div");
-
-centerMatches.className =
-  "center-matches";
-
-const rightSide =
-  document.createElement("div");
-
-rightSide.className =
-  "bracket-side right-side";
-
-leftSide.appendChild(
+bracketContainer.appendChild(
   createStage(
     "last_32",
     stageNames.LAST_32,
@@ -543,7 +540,7 @@ leftSide.appendChild(
   )
 );
 
-leftSide.appendChild(
+bracketContainer.appendChild(
   createStage(
     "last_16",
     stageNames.LAST_16,
@@ -551,7 +548,7 @@ leftSide.appendChild(
   )
 );
 
-leftSide.appendChild(
+bracketContainer.appendChild(
   createStage(
     "quarter_finals",
     stageNames.QUARTER_FINALS,
@@ -559,7 +556,7 @@ leftSide.appendChild(
   )
 );
 
-leftSide.appendChild(
+bracketContainer.appendChild(
   createStage(
     "semi_finals",
     stageNames.SEMI_FINALS,
@@ -567,29 +564,43 @@ leftSide.appendChild(
   )
 );
 
-// ---------- CENTER ----------
+const centerStage =
+  document.createElement("div");
 
-centerMatches.appendChild(
-  createStage(
-    "final",
-    stageNames.FINAL,
-    finalMatch
-  )
-);
+centerStage.className =
+  "center-stage";
 
-centerMatches.appendChild(
-  createStage(
-    "third_place",
-    stageNames.THIRD_PLACE,
-    thirdPlace
-  )
-);
+centerStage.innerHTML = `
 
-centerSide.appendChild(centerMatches);
+<div class="center-label final-label">
+  Final
+</div>
 
-// ---------- RIGHT ----------
+<div class="center-final"></div>
 
-rightSide.appendChild(
+<div class="center-label third-label">
+  Third Place Match
+</div>
+
+<div class="center-third"></div>
+
+`;
+
+centerStage
+  .querySelector(".center-final")
+  .appendChild(
+    createBracketMatch(finalMatch[0])
+  );
+
+centerStage
+  .querySelector(".center-third")
+  .appendChild(
+    createBracketMatch(thirdPlace[0])
+  );
+
+bracketContainer.appendChild(centerStage);
+
+bracketContainer.appendChild(
   createStage(
     "semi_finals",
     stageNames.SEMI_FINALS,
@@ -597,7 +608,7 @@ rightSide.appendChild(
   )
 );
 
-rightSide.appendChild(
+bracketContainer.appendChild(
   createStage(
     "quarter_finals",
     stageNames.QUARTER_FINALS,
@@ -605,7 +616,7 @@ rightSide.appendChild(
   )
 );
 
-rightSide.appendChild(
+bracketContainer.appendChild(
   createStage(
     "last_16",
     stageNames.LAST_16,
@@ -613,15 +624,11 @@ rightSide.appendChild(
   )
 );
 
-rightSide.appendChild(
+bracketContainer.appendChild(
   createStage(
     "last_32",
     stageNames.LAST_32,
     rightR32
   )
 );
-
-bracketContainer.appendChild(leftSide);
-bracketContainer.appendChild(centerSide);
-bracketContainer.appendChild(rightSide);
   });
