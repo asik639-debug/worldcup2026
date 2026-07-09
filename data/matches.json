@@ -1448,11 +1448,11 @@
     "awayCode": "MAR",
     "awayCrest": "https://crests.football-data.org/morocco.svg",
     "time": "2026-07-09T20:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "stage": "QUARTER_FINALS",
     "group": null,
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 0,
+    "awayScore": 0
   },
   {
     "id": 537384,
