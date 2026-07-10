@@ -259,6 +259,9 @@ fetch("data/matches.json")
     const bracketContainer = 
       document.getElementById("bracket");
 
+    const fixturesContainer = 
+      document.getElementById("fixtures");
+
     const bdToday = new Date()
       .toLocaleDateString(
         "en-CA",
@@ -312,21 +315,28 @@ fetch("data/matches.json")
       const card =
         document.createElement("div");
 
-      let matchDisplay = "";
+    const homeTeam =
+    match.home ?? "TBD";
+
+const awayTeam =
+    match.away ?? "TBD";
+
+let matchDisplay = "";
 
 if (
-  match.homeScore !== null &&
-  match.awayScore !== null
+    match.homeScore !== null &&
+    match.awayScore !== null
 ) {
 
-  matchDisplay =
-    `${match.home} ${match.homeScore}
-     - ${match.awayScore} ${match.away}`;
+    matchDisplay =
+        `${homeTeam} ${match.homeScore} - ${match.awayScore} ${awayTeam}`;
 
-} else {
+}
 
-  matchDisplay =
-    `${match.home} vs ${match.away}`;
+else {
+
+    matchDisplay =
+        `${homeTeam} vs ${awayTeam}`;
 
 }
 
@@ -388,6 +398,17 @@ else if (matchDay === nextMatchDay) {
   upcomingContainer.appendChild(card);
 
 }
+
+const fixtureCard =
+    card.cloneNode(true);
+
+fixtureCard.className =
+    "match-card";
+
+fixturesContainer.appendChild(
+    fixtureCard
+);
+
     });
 
 if (todayContainer.children.length === 0) {
@@ -777,7 +798,9 @@ drawConnector(
 }
 
 const zoomLevels = [
-    0.45,
+    0.2,  
+    0.3,
+    0.40,
     0.5,
     0.75,
     1,
@@ -839,10 +862,50 @@ document
 .getElementById("zoom-reset")
 .onclick = () => {
 
-    zoomIndex = 2;
+    zoomIndex = 5;
 
     updateZoom();
 
 };
 
 window.addEventListener("resize", drawBracketLines);
+
+const wrapper =
+    document.getElementById("bracket-wrapper");
+
+wrapper.addEventListener("wheel", (event) => {
+
+    if (!event.ctrlKey) {
+        return;
+    }
+
+    event.preventDefault();
+
+    if (event.deltaY < 0) {
+
+        if (zoomIndex < zoomLevels.length - 1) {
+
+            zoomIndex++;
+
+            updateZoom();
+
+        }
+
+    }
+
+    else {
+
+        if (zoomIndex > 0) {
+
+            zoomIndex--;
+
+            updateZoom();
+
+        }
+
+    }
+
+},
+{
+    passive: false
+});

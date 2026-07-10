@@ -48,6 +48,16 @@ ul {
     gap: 7px;
 }
 
+#fixtures{
+
+    max-height:500px;
+
+    overflow-y:auto;
+
+    padding-right:10px;
+
+}
+
 .match-card {
     background: #181819;
     padding: 18px;
