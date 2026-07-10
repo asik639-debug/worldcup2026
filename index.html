@@ -55,13 +55,33 @@
 
 <section>
 
-    <h2>Knockout Bracket</h2>
+    <div class="bracket-header">
+
+        <h2>Knockout Bracket</h2>
+
+        <div id="zoom-controls">
+
+            <button id="zoom-in">+</button>
+
+            <span id="zoom-level">100%</span>
+
+            <button id="zoom-out">−</button>
+
+            <button id="zoom-reset">Reset</button>
+
+        </div>
+
+    </div>
 
     <div id="bracket-wrapper">
 
-        <svg id="bracket-lines"></svg>
+        <div id="zoom-layer">
 
-        <div id="bracket"></div>
+            <svg id="bracket-lines"></svg>
+
+            <div id="bracket"></div>
+
+        </div>
 
     </div>
 

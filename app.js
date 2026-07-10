@@ -776,4 +776,73 @@ drawConnector(
 
 }
 
+const zoomLevels = [
+    0.45,
+    0.5,
+    0.75,
+    1,
+    1.25,
+    1.5,
+    1.75,
+    2
+];
+
+let zoomIndex = 2;
+
+function updateZoom(){
+
+    const zoom =
+        zoomLevels[zoomIndex];
+
+    document
+        .getElementById("zoom-layer")
+        .style.transform =
+        `scale(${zoom})`;
+
+    document
+        .getElementById("zoom-level")
+        .textContent =
+        `${Math.round(zoom*100)}%`;
+
+
+}
+
+document
+.getElementById("zoom-in")
+.onclick = () => {
+
+    if(zoomIndex < zoomLevels.length-1){
+
+        zoomIndex++;
+
+        updateZoom();
+
+    }
+
+};
+
+document
+.getElementById("zoom-out")
+.onclick = () => {
+
+    if(zoomIndex > 0){
+
+        zoomIndex--;
+
+        updateZoom();
+
+    }
+
+};
+
+document
+.getElementById("zoom-reset")
+.onclick = () => {
+
+    zoomIndex = 2;
+
+    updateZoom();
+
+};
+
 window.addEventListener("resize", drawBracketLines);

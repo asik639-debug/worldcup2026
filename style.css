@@ -176,6 +176,14 @@ h2 {
     padding-bottom: 20px;
 }
 
+#zoom-layer{
+
+    position:relative;
+
+    transform-origin:top left;
+
+}
+
 #bracket{
 
     position:relative;
@@ -446,4 +454,62 @@ summary {
     gap: 40px;
 
     align-items: center;
+}
+
+.bracket-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:flex-start;
+
+    margin-bottom:20px;
+
+}
+
+#zoom-controls{
+
+    display:flex;
+
+    flex-direction:row;
+
+    align-items:center;
+
+    gap:8px;
+
+    flex-shrink:0;
+
+}
+
+#zoom-controls button{
+
+    padding:8px 12px;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    background:#333;
+
+    color:white;
+
+    font-size:0.9rem;
+
+}
+
+#zoom-controls button:hover{
+
+    background:#555;
+
+}
+
+#zoom-level{
+
+    text-align:center;
+
+    font-weight:bold;
+
 }
