@@ -1501,9 +1501,9 @@
   },
   {
     "id": 537387,
-    "home": null,
-    "homeCode": null,
-    "homeCrest": null,
+    "home": "France",
+    "homeCode": "FRA",
+    "homeCrest": "https://crests.football-data.org/773.svg",
     "away": null,
     "awayCode": null,
     "awayCrest": null,
