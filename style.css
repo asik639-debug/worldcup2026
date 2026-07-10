@@ -52,7 +52,7 @@ ul {
     background: #181819;
     padding: 18px;
     border-radius: 10px;
-    width: min(150px, 100%);
+    width: min(1150px, 100%);
     text-align: center;
 }
 
@@ -160,7 +160,7 @@ h2 {
 
     align-items: start;
 
-    overflow-x: auto;
+    overflow-x: visible;
 
     padding: 20px;
 }
@@ -170,6 +170,10 @@ h2 {
     position:relative;
 
     overflow-x:auto;
+
+    overflow-y: hidden;
+
+    padding-bottom: 20px;
 }
 
 #bracket{
@@ -216,7 +220,7 @@ h2 {
 
     grid-template-rows:repeat(15,70px);
 
-    row-gap:30px;
+    row-gap: 30px;
     }
 
 .center-stage{

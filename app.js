@@ -1,3 +1,5 @@
+const bracket = {};
+
 fetch("data/last_updated.json")
   .then(response => response.json())
   .then(data => {
@@ -238,6 +240,8 @@ ${date}
 
 `;
 
+  match.element = game;
+
   return game;
 
 }
@@ -470,7 +474,7 @@ matches.forEach(match => {
   matchById[match.id] = match;
 });
 
-const leftR32 = [
+bracket.leftR32 = [
   537417,
   537418,
   537415,
@@ -481,7 +485,7 @@ const leftR32 = [
   537419
 ].map(id => matchById[id]);
 
-const rightR32 = [
+bracket.rightR32 = [
   537423,
   537424,
   537425,
@@ -492,43 +496,43 @@ const rightR32 = [
   537427
 ].map(id => matchById[id]);
 
-const leftR16 = [
+bracket.leftR16 = [
   537376,
   537375,
   537380,
   537379
 ].map(id => matchById[id]);
 
-const rightR16 = [
+bracket.rightR16 = [
   537377,
   537378,
   537382,
   537381
 ].map(id => matchById[id]);
 
-const leftQF = [
+bracket.leftQF = [
   537383,
   537384
 ].map(id => matchById[id]);
 
-const rightQF = [
+bracket.rightQF = [
   537385,
   537386
 ].map(id => matchById[id]);
 
-const leftSF = [
+bracket.leftSF = [
   537387
 ].map(id => matchById[id]);
 
-const rightSF = [
+bracket.rightSF = [
   537388
 ].map(id => matchById[id]);
 
-const finalMatch = [
+bracket.finalMatch = [
   537390
 ].map(id => matchById[id]);
 
-const thirdPlace = [
+bracket.thirdPlace = [
   537389
 ].map(id => matchById[id]);
 
@@ -536,7 +540,7 @@ bracketContainer.appendChild(
   createStage(
     "last_32",
     stageNames.LAST_32,
-    leftR32
+    bracket.leftR32
   )
 );
 
@@ -544,7 +548,7 @@ bracketContainer.appendChild(
   createStage(
     "last_16",
     stageNames.LAST_16,
-    leftR16
+    bracket.leftR16
   )
 );
 
@@ -552,7 +556,7 @@ bracketContainer.appendChild(
   createStage(
     "quarter_finals",
     stageNames.QUARTER_FINALS,
-    leftQF
+    bracket.leftQF
   )
 );
 
@@ -560,7 +564,7 @@ bracketContainer.appendChild(
   createStage(
     "semi_finals",
     stageNames.SEMI_FINALS,
-    leftSF
+    bracket.leftSF
   )
 );
 
@@ -589,13 +593,13 @@ centerStage.innerHTML = `
 centerStage
   .querySelector(".center-final")
   .appendChild(
-    createBracketMatch(finalMatch[0])
+    createBracketMatch(bracket.finalMatch[0])
   );
 
 centerStage
   .querySelector(".center-third")
   .appendChild(
-    createBracketMatch(thirdPlace[0])
+    createBracketMatch(bracket.thirdPlace[0])
   );
 
 bracketContainer.appendChild(centerStage);
@@ -604,7 +608,7 @@ bracketContainer.appendChild(
   createStage(
     "semi_finals",
     stageNames.SEMI_FINALS,
-    rightSF
+    bracket.rightSF
   )
 );
 
@@ -612,7 +616,7 @@ bracketContainer.appendChild(
   createStage(
     "quarter_finals",
     stageNames.QUARTER_FINALS,
-    rightQF
+    bracket.rightQF
   )
 );
 
@@ -620,7 +624,7 @@ bracketContainer.appendChild(
   createStage(
     "last_16",
     stageNames.LAST_16,
-    rightR16
+    bracket.rightR16
   )
 );
 
@@ -628,7 +632,148 @@ bracketContainer.appendChild(
   createStage(
     "last_32",
     stageNames.LAST_32,
-    rightR32
+    bracket.rightR32
   )
 );
+
+drawBracketLines();
+
   });
+
+function drawConnector(fromMatch, toMatch) {
+
+    const svg =
+        document.getElementById("bracket-lines");
+
+    const wrapper =
+        document
+            .getElementById("bracket-wrapper")
+            .getBoundingClientRect();
+
+    const a =
+        fromMatch.getBoundingClientRect();
+
+    const b =
+        toMatch.getBoundingClientRect();
+
+    const x1 =
+        a.right - wrapper.left;
+
+    const y1 =
+        a.top + a.height / 2 - wrapper.top;
+
+    const x2 =
+        b.left - wrapper.left;
+
+    const y2 =
+        b.top + b.height / 2 - wrapper.top;
+
+    const midX =
+        (x1 + x2) / 2;
+
+    const path =
+        document.createElementNS(
+            "http://www.w3.org/2000/svg",
+            "path"
+        );
+
+    path.setAttribute(
+        "d",
+        `
+M ${x1} ${y1}
+L ${midX} ${y1}
+L ${midX} ${y2}
+L ${x2} ${y2}
+`
+    );
+
+    path.setAttribute("fill", "none");
+    path.setAttribute("stroke", "#888");
+    path.setAttribute("stroke-width", "2.5");
+    path.setAttribute("stroke-linecap", "round");
+    path.setAttribute("stroke-linejoin", "round");
+
+    svg.appendChild(path);
+
+}
+
+function drawBracketLines() {
+
+    const svg =
+        document.getElementById("bracket-lines");
+
+    svg.innerHTML = "";
+
+   // ---------- LEFT R32 → LEFT R16 ----------
+
+drawConnector(bracket.leftR32[0].element, bracket.leftR16[0].element);
+drawConnector(bracket.leftR32[1].element, bracket.leftR16[0].element);
+
+drawConnector(bracket.leftR32[2].element, bracket.leftR16[1].element);
+drawConnector(bracket.leftR32[3].element, bracket.leftR16[1].element);
+
+drawConnector(bracket.leftR32[4].element, bracket.leftR16[2].element);
+drawConnector(bracket.leftR32[5].element, bracket.leftR16[2].element);
+
+drawConnector(bracket.leftR32[6].element, bracket.leftR16[3].element);
+drawConnector(bracket.leftR32[7].element, bracket.leftR16[3].element);
+
+
+// ---------- LEFT R16 → LEFT QF ----------
+
+drawConnector(bracket.leftR16[0].element, bracket.leftQF[0].element);
+drawConnector(bracket.leftR16[1].element, bracket.leftQF[0].element);
+
+drawConnector(bracket.leftR16[2].element, bracket.leftQF[1].element);
+drawConnector(bracket.leftR16[3].element, bracket.leftQF[1].element);
+
+
+// ---------- LEFT QF → LEFT SF ----------
+
+drawConnector(bracket.leftQF[0].element, bracket.leftSF[0].element);
+drawConnector(bracket.leftQF[1].element, bracket.leftSF[0].element);
+    
+// ---------- RIGHT R32 → RIGHT R16 ----------
+
+drawConnector(bracket.rightR32[0].element, bracket.rightR16[0].element);
+drawConnector(bracket.rightR32[1].element, bracket.rightR16[0].element);
+
+drawConnector(bracket.rightR32[2].element, bracket.rightR16[1].element);
+drawConnector(bracket.rightR32[3].element, bracket.rightR16[1].element);
+
+drawConnector(bracket.rightR32[4].element, bracket.rightR16[2].element);
+drawConnector(bracket.rightR32[5].element, bracket.rightR16[2].element);
+
+drawConnector(bracket.rightR32[6].element, bracket.rightR16[3].element);
+drawConnector(bracket.rightR32[7].element, bracket.rightR16[3].element);
+
+
+// ---------- RIGHT R16 → RIGHT QF ----------
+
+drawConnector(bracket.rightR16[0].element, bracket.rightQF[0].element);
+drawConnector(bracket.rightR16[1].element, bracket.rightQF[0].element);
+
+drawConnector(bracket.rightR16[2].element, bracket.rightQF[1].element);
+drawConnector(bracket.rightR16[3].element, bracket.rightQF[1].element);
+
+
+// ---------- RIGHT QF → RIGHT SF ----------
+
+drawConnector(bracket.rightQF[0].element, bracket.rightSF[0].element);
+drawConnector(bracket.rightQF[1].element, bracket.rightSF[0].element);
+
+// ---------- SEMIFINALS → FINAL ----------
+
+drawConnector(
+    bracket.leftSF[0].element,
+    bracket.finalMatch[0].element
+);
+
+drawConnector(
+    bracket.rightSF[0].element,
+    bracket.finalMatch[0].element
+);
+
+}
+
+window.addEventListener("resize", drawBracketLines);
