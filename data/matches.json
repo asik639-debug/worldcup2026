@@ -1463,11 +1463,11 @@
     "awayCode": "BEL",
     "awayCrest": "https://crests.football-data.org/805.svg",
     "time": "2026-07-10T19:00:00Z",
-    "status": "TIMED",
+    "status": "PAUSED",
     "stage": "QUARTER_FINALS",
     "group": null,
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 1,
+    "awayScore": 1
   },
   {
     "id": 537385,
