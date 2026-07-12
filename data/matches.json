@@ -1493,11 +1493,11 @@
     "awayCode": "SUI",
     "awayCrest": "https://crests.football-data.org/788.svg",
     "time": "2026-07-12T01:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "stage": "QUARTER_FINALS",
     "group": null,
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 3,
+    "awayScore": 1
   },
   {
     "id": 537387,
