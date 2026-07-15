@@ -1523,11 +1523,11 @@
     "awayCode": "ARG",
     "awayCrest": "https://crests.football-data.org/762.png",
     "time": "2026-07-15T19:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "stage": "SEMI_FINALS",
     "group": null,
     "homeScore": 1,
-    "awayScore": 1
+    "awayScore": 2
   },
   {
     "id": 537389,
